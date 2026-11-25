@@ -43,7 +43,7 @@ jobs:
           CLARITYKEY_KEYSTORE_PATH: release.keystore
           CLARITYKEY_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           CLARITYKEY_KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
-          CLARITYKEY_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+          CLARITYKEY_KEY_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
         run: ./gradlew assembleRelease --build-cache --no-daemon
       - name: Build installable debug APK
         if: steps.signing.outputs.available != 'true'
