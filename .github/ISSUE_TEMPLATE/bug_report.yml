@@ -1,0 +1,79 @@
+name: Bug report
+description: Report a reproducible ClarityKey problem
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing ClarityKey. Do not attach passwords, OTP codes, private typed text, clipboard contents, personal OCR images, contacts or signing keys.
+  - type: input
+    id: version
+    attributes:
+      label: ClarityKey version
+      placeholder: 0.5.2-beta
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Device model, Android version and system skin
+    validations:
+      required: true
+  - type: input
+    id: target_app
+    attributes:
+      label: Application where the problem occurs
+      placeholder: App name and version, or "all apps"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Use privacy-safe sample text.
+      placeholder: |
+        1. Open...
+        2. Type...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency
+      options:
+        - Always
+        - Often
+        - Sometimes
+        - Once
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots or logs must be checked and redacted before upload.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed passwords, OTP codes, private text, clipboard data, contacts, personal images and secrets.
+          required: true
+        - label: I checked the known limitations and searched existing issues.
+          required: true
