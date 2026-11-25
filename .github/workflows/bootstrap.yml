@@ -1,0 +1,57 @@
+name: Bootstrap ClarityKey source
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths:
+      - "ClarityKey_v0.5.2-beta_source.zip"
+      - ".github/workflows/bootstrap.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand source package
+        run: |
+          rm -rf .bootstrap
+          mkdir .bootstrap
+          unzip -q ClarityKey_v0.5.2-beta_source.zip -d .bootstrap
+          shopt -s dotglob
+          cp -a .bootstrap/ClarityKey_v0.5.2-beta/. .
+          rm -rf .bootstrap ClarityKey_v0.5.2-beta_source.zip
+          rm -f .github/workflows/bootstrap.yml
+          chmod +x gradlew
+      - name: Commit normal source tree
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Import ClarityKey 0.5.2-beta source"
+          git push
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 8.10.2
+      - name: Verify bundled assets
+        run: sha256sum -c assets.sha256
+      - name: Test, lint and build installable beta
+        run: ./gradlew testDebugUnitTest lintDebug assembleDebug --build-cache --no-daemon
+      - name: Prepare APK
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/debug/app-debug.apk dist/ClarityKey-0.5.2-beta-debug.apk
+          sha256sum dist/*.apk > dist/SHA256SUMS.txt
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ClarityKey-0.5.2-beta
+          path: dist/*
+          retention-days: 30
