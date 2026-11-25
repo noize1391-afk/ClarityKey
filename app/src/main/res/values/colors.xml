@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Exact Color Tokens Extracted from Breeno Keyboard 1.9.18.17-mkt resources.arsc -->
+    <!-- Light Theme -->
+    <color name="breeno_kb_bg_light">#FFE2E4E7</color>
+    <color name="breeno_key_normal_light">#FFFFFFFF</color>
+    <color name="breeno_key_pressed_light">#FFBBBEC2</color>
+    <color name="breeno_key_shadow_light">#FFB1B4BE</color>
+    <color name="breeno_func_key_normal_light">#FFC6CBCF</color>
+    <color name="breeno_func_key_pressed_light">#FFBBBEC2</color>
+    <color name="breeno_func_key_shadow_light">#FF9A9EAD</color>
+    <color name="breeno_enter_accent_light">#FF0066FF</color>
+    <color name="breeno_key_text_light">#E6000000</color>
+    <color name="breeno_key_mark_light">#66000000</color>
+    <color name="breeno_popup_bg_light">#FFFFFFFF</color>
+    <color name="breeno_popup_stroke_light">#26000000</color>
+    <color name="breeno_popup_shadow_light">#14000000</color>
+    <color name="breeno_popup_text_light">#FF0066FF</color>
+    <color name="breeno_candidate_word_light">#D9000000</color>
+    <color name="breeno_candidate_target_light">#FF0066FF</color>
+    <color name="breeno_candidate_divider_light">#66000000</color>
+    <color name="breeno_delete_danger">#FFDB382C</color>
+
+    <!-- Dark Theme -->
+    <color name="breeno_kb_bg_dark">#FF2C2D2E</color>
+    <color name="breeno_key_normal_dark">#FF5C5D5E</color>
+    <color name="breeno_key_pressed_dark">#FF3B3C3E</color>
+    <color name="breeno_key_shadow_dark">#FF1A1B1C</color>
+    <color name="breeno_func_key_normal_dark">#FF3B3C3E</color>
+    <color name="breeno_func_key_pressed_dark">#FF4B4C4E</color>
+    <color name="breeno_func_key_shadow_dark">#FF171819</color>
+    <color name="breeno_enter_accent_dark">#FF247CFF</color>
+    <color name="breeno_key_text_dark">#E6FFFFFF</color>
+    <color name="breeno_key_mark_dark">#66FFFFFF</color>
+    <color name="breeno_popup_bg_dark">#FF5C5D5E</color>
+    <color name="breeno_popup_stroke_dark">#26FFFFFF</color>
+    <color name="breeno_popup_text_dark">#FF5C9DFF</color>
+    <color name="breeno_candidate_word_dark">#E6FFFFFF</color>
+    <color name="breeno_candidate_target_dark">#FF5C9DFF</color>
+    <color name="breeno_candidate_divider_dark">#66FFFFFF</color>
+</resources>

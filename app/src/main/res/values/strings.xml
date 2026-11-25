@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">"ClarityKey"</string>
+    <string name="ime_name">"ClarityKey"</string>
+    <string name="subtype_ru_ru">"Russian (ЙЦУКЕН)"</string>
+    <string name="subtype_en_us">"English (QWERTY)"</string>
+    <string name="settings_title">"ClarityKey settings"</string>
+    <string name="btn_enable_ime">"1. Enable keyboard in Android"</string>
+    <string name="btn_select_ime">"2. Select ClarityKey"</string>
+    <string name="sec_appearance">"Appearance (ClarityKey themes)"</string>
+    <string name="sec_input">"Typing and Russian"</string>
+    <string name="sec_dict">"Personal dictionary"</string>
+    <string name="theme_system">"Follow system"</string>
+    <string name="theme_light">"ClarityKey Light"</string>
+    <string name="theme_dark">"ClarityKey Dark"</string>
+    <string name="pref_autocap">"Capitalize new sentences"</string>
+    <string name="pref_double_space">"Period on double space"</string>
+    <string name="pref_suggestions">"Word suggestions"</string>
+    <string name="pref_autocorrect">"Autocorrection"</string>
+    <string name="pref_sound">"ClarityKey key sounds"</string>
+    <string name="pref_haptic">"Vibrate on keypress"</string>
+    <string name="pref_popup">"Key popup"</string>
+    <string name="pref_separate_hard_sign">"Separate Ъ key (12 keys in the top row)"</string>
+    <string name="dict_hint">"Add a word to the dictionary"</string>
+    <string name="dict_add">"Add"</string>
+    <string name="dict_clear">"Clear dictionary"</string>
+    <string name="test_input_hint">"Try your keyboard here…"</string>
+    <string name="vault_entry_unavailable">Entry temporarily unavailable</string>
+</resources>

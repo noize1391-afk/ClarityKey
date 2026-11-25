@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.claritykey.keyboard.settings.SettingsActivity"
+    android:supportsInlineSuggestions="true"
+    android:supportsSwitchingToNextInputMethod="true">
+
+    <subtype
+        android:icon="@drawable/ic_breeno_app_icon"
+        android:imeSubtypeExtraValue="AsciiCapable,EmojiCapable"
+        android:imeSubtypeLocale="ru_RU"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:label="@string/subtype_ru_ru"
+        android:subtypeId="1" />
+
+    <subtype
+        android:icon="@drawable/ic_breeno_app_icon"
+        android:imeSubtypeExtraValue="AsciiCapable,EmojiCapable"
+        android:imeSubtypeLocale="en_US"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:label="@string/subtype_en_us"
+        android:subtypeId="2" />
+
+</input-method>

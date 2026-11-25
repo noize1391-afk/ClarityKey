@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="settings_screenshot_auto_save_enabled_1" formatted="false">"Screenshot auto-save enabled"</string>
+    <string name="settings_microphone_access_granted_voice_typing_is_ready_2" formatted="false">"Microphone access granted — voice typing is ready"</string>
+    <string name="settings_microphone_access_denied_3" formatted="false">"Microphone access denied"</string>
+    <string name="settings_recent_screenshot_suggestions_enabled_4" formatted="false">"Recent screenshot suggestions enabled"</string>
+    <string name="settings_photo_access_denied_you_can_still_choose_images_5" formatted="false">"Photo access denied — you can still choose images with Photo Picker"</string>
+    <string name="settings_contact_names_imported_1_s_6" formatted="true">"Contact names imported: %1$s"</string>
+    <string name="settings_contacts_access_was_not_granted_7" formatted="false">"Contacts access was not granted"</string>
+    <string name="settings_claritykey_backup_saved_8" formatted="false">".claritykey backup saved"</string>
+    <string name="settings_could_not_save_the_backup_9" formatted="false">"Could not save the backup"</string>
+    <string name="settings_dictionary_exported_txt_10" formatted="false">"Dictionary exported (.txt)"</string>
+    <string name="settings_could_not_export_the_dictionary_11" formatted="false">"Could not export the dictionary"</string>
+    <string name="settings_words_imported_1_s_12" formatted="true">"Words imported: %1$s"</string>
+    <string name="settings_settings_and_dictionary_restored_13" formatted="false">"Settings and dictionary restored"</string>
+    <string name="settings_invalid_claritykey_file_14" formatted="false">"Invalid .claritykey file"</string>
+    <string name="settings_claritykey_vault_15" formatted="false">"ClarityKey Vault"</string>
+    <string name="settings_verify_your_identity_to_access_encrypted_entries_16" formatted="false">"Verify your identity to access encrypted entries"</string>
+    <string name="settings_cancel_17" formatted="false">"Cancel"</string>
+    <string name="settings_vault_unlocked_for_1_s_sec_18" formatted="true">"Vault unlocked for %1$s sec."</string>
+    <string name="settings_biometrics_unavailable_19" formatted="false">"Biometrics unavailable"</string>
+    <string name="settings_could_not_verify_your_identity_the_vault_remains_20" formatted="false">"Could not verify your identity. The vault remains locked"</string>
+    <string name="settings_back_21" formatted="false">"Back"</string>
+    <string name="settings_settings_22" formatted="false">"Settings"</string>
+    <string name="settings_languages_and_layouts_23" formatted="false">"Languages and layouts"</string>
+    <string name="settings_keys_font_and_emoji_24" formatted="false">"Keys, font and emoji"</string>
+    <string name="settings_typing_gestures_and_correction_25" formatted="false">"Typing, gestures and correction"</string>
+    <string name="settings_personal_dictionary_26" formatted="false">"Personal dictionary"</string>
+    <string name="settings_gestures_touch_and_calibration_27" formatted="false">"Gestures, touch and calibration"</string>
+    <string name="settings_typing_statistics_and_touch_offset_28" formatted="false">"Typing statistics and touch offset"</string>
+    <string name="settings_text_shortcuts_29" formatted="false">"Text shortcuts"</string>
+    <string name="settings_autofill_and_personal_memory_30" formatted="false">"Autofill and personal memory"</string>
+    <string name="settings_appearance_and_layout_31" formatted="false">"Appearance and layout"</string>
+    <string name="settings_theme_system_and_glass_32" formatted="false">"Theme, system and glass"</string>
+    <string name="settings_key_colors_33" formatted="false">"Key colors"</string>
+    <string name="settings_keyboard_wallpaper_34" formatted="false">"Keyboard wallpaper"</string>
+    <string name="settings_size_and_modes_35" formatted="false">"Size and modes"</string>
+    <string name="settings_toolbar_5_slots_36" formatted="false">"Toolbar (5 slots)"</string>
+    <string name="settings_sound_and_vibration_37" formatted="false">"Sound and vibration"</string>
+    <string name="settings_clipboard_38" formatted="false">"Clipboard"</string>
+    <string name="settings_quick_reply_templates_39" formatted="false">"Quick reply templates"</string>
+    <string name="settings_secure_vault_40" formatted="false">"Secure vault"</string>
+    <string name="settings_voice_and_app_41" formatted="false">"Voice and app"</string>
+    <string name="settings_security_and_privacy_42" formatted="false">"Security and privacy"</string>
+    <string name="settings_about_43" formatted="false">"About"</string>
+    <string name="settings_claritykey_quick_start_44" formatted="false">"✨ ClarityKey quick start"</string>
+    <string name="settings_1_enable_and_select_claritykey_below_2_choose_a_45" formatted="false">"1. Enable and select ClarityKey below  •  2. Choose a style (Glass / Light / Dark)  •  3. Try typing in the test field."</string>
+    <string name="settings_glass_46" formatted="false">"Glass"</string>
+    <string name="settings_light_47" formatted="false">"Light"</string>
+    <string name="settings_dark_48" formatted="false">"Dark"</string>
+    <string name="settings_done_hide_this_tip_49" formatted="false">"Done, hide this tip"</string>
+    <string name="settings_claritykey_is_active_50" formatted="false">"ClarityKey is active"</string>
+    <string name="settings_enable_your_keyboard_51" formatted="false">"Enable your keyboard"</string>
+    <string name="settings_select_a_keyboard_or_try_the_test_field_below_52" formatted="false">"Select a keyboard or try the test field below"</string>
+    <string name="settings_enable_claritykey_in_android_settings_53" formatted="false">"Enable ClarityKey in Android settings"</string>
+    <string name="settings_select_keyboard_54" formatted="false">"Select keyboard"</string>
+    <string name="settings_1_enable_in_android_55" formatted="false">"1. Enable in Android"</string>
+    <string name="settings_2_select_56" formatted="false">"2. Select"</string>
+    <string name="settings_ru_en_number_row_on_57" formatted="false">"RU / EN • Number row on"</string>
+    <string name="settings_russian_english_qwerty_58" formatted="false">"Russian (ЙЦУКЕН), English (QWERTY)"</string>
+    <string name="settings_suggestions_and_autocorrection_on_59" formatted="false">"Suggestions and autocorrection on"</string>
+    <string name="settings_word_suggestions_dictionary_1_s_60" formatted="true">"Word suggestions, dictionary (%1$s)"</string>
+    <string name="settings_system_61" formatted="false">"System"</string>
+    <string name="settings_claritykey_light_62" formatted="false">"ClarityKey Light"</string>
+    <string name="settings_claritykey_dark_63" formatted="false">"ClarityKey Dark"</string>
+    <string name="settings_glass_background_1_s_64" formatted="true">"Glass background (%1$s%%)"</string>
+    <string name="settings_light_glass_background_1_s_65" formatted="true">"Light glass background (%1$s%%)"</string>
+    <string name="settings_dark_glass_background_1_s_66" formatted="true">"Dark glass background (%1$s%%)"</string>
+    <string name="settings_full_glass_1_s_67" formatted="true">"Full glass (%1$s%%)"</string>
+    <string name="settings_light_glass_1_s_68" formatted="true">"Light glass (%1$s%%)"</string>
+    <string name="settings_dark_glass_1_s_69" formatted="true">"Dark glass (%1$s%%)"</string>
+    <string name="settings_vibration_on_70" formatted="false">"Vibration on"</string>
+    <string name="settings_vibration_off_71" formatted="false">"Vibration off"</string>
+    <string name="settings_sound_on_72" formatted="false">"Sound on"</string>
+    <string name="settings_sound_off_73" formatted="false">"Sound off"</string>
+    <string name="settings_up_to_1_s_entries_2_s_74" formatted="true">"Up to %1$s entries • %2$s"</string>
+    <string name="settings_auto_save_off_75" formatted="false">"Auto-save off"</string>
+    <string name="settings_voice_typing_is_ready_76" formatted="false">"Voice typing is ready"</string>
+    <string name="settings_voice_typing_microphone_access_required_77" formatted="false">"Voice typing • microphone access required"</string>
+    <string name="settings_voice_typing_off_78" formatted="false">"Voice typing off"</string>
+    <string name="settings_clipboard_encryption_and_data_deletion_79" formatted="false">"Clipboard encryption and data deletion"</string>
+    <string name="settings_try_your_keyboard_80" formatted="false">"Try your keyboard"</string>
+    <string name="settings_tap_here_to_try_layouts_t9_stickers_and_the_clip_81" formatted="false">"Tap here to try layouts, T9, stickers and the clipboard…"</string>
+    <string name="settings_clear_82" formatted="false">"Clear"</string>
+    <string name="settings_russian_83" formatted="false">"Russian (ЙЦУКЕН)"</string>
+    <string name="settings_all_33_letters_including_with_a_dictionary_of_up_84" formatted="false">"All 33 letters including Ё, with a dictionary of up to 250k words"</string>
+    <string name="settings_standard_layout_with_a_dictionary_of_up_to_200k_85" formatted="false">"Standard layout with a dictionary of up to 200k words"</string>
+    <string name="settings_number_row_86" formatted="false">"Number row"</string>
+    <string name="settings_show_a_separate_number_row_above_the_letters_87" formatted="false">"Show a separate number row above the letters"</string>
+    <string name="settings_separate_key_88" formatted="false">"Separate Ъ key"</string>
+    <string name="settings_12_keys_in_the_top_russian_row_instead_of_holdin_89" formatted="false">"12 keys in the top Russian row instead of holding Х/Ь"</string>
+    <string name="settings_separate_key_90" formatted="false">"Separate Ё key"</string>
+    <string name="settings_add_to_the_main_russian_layout_instead_of_holdin_91" formatted="false">"Add Ё to the main Russian layout instead of holding Е"</string>
+    <string name="settings_classic_t9_layout_3_4_92" formatted="false">"Classic T9 layout (3×4)"</string>
+    <string name="settings_large_multi_tap_letter_groups_for_one_handed_typ_93" formatted="false">"Large multi-tap letter groups (АБВГ, ДЕЖЗ…) for one-handed typing"</string>
+    <string name="settings_quick_domains_for_browsers_and_email_94" formatted="false">"Quick domains for browsers and email"</string>
+    <string name="settings_save_domains_96" formatted="false">"Save domains"</string>
+    <string name="settings_quick_domains_saved_97" formatted="false">"Quick domains saved"</string>
+    <string name="settings_keys_98" formatted="false">"Keys"</string>
+    <string name="settings_number_row_99" formatted="false">"Number row"</string>
+    <string name="settings_always_show_numbers_1_0_above_the_letters_100" formatted="false">"Always show numbers 1–0 above the letters"</string>
+    <string name="settings_number_row_in_password_fields_101" formatted="false">"Number row in password fields"</string>
+    <string name="settings_automatically_show_numbers_when_entering_passwor_102" formatted="false">"Automatically show numbers when entering passwords"</string>
+    <string name="settings_emoji_switch_key_103" formatted="false">"Emoji switch key"</string>
+    <string name="settings_show_the_emoji_key_on_the_bottom_row_hides_the_l_104" formatted="false">"Show the emoji key on the bottom row (hides the language switch key)"</string>
+    <string name="settings_language_switch_key_105" formatted="false">"Language switch key"</string>
+    <string name="settings_show_the_globe_key_on_the_bottom_row_hides_the_e_106" formatted="false">"Show the globe key on the bottom row (hides the emoji switch key)"</string>
+    <string name="settings_comma_key_107" formatted="false">"Comma key"</string>
+    <string name="settings_show_to_the_left_of_the_spacebar_108" formatted="false">"Show , to the left of the spacebar"</string>
+    <string name="settings_period_key_109" formatted="false">"Period key"</string>
+    <string name="settings_show_to_the_right_of_the_spacebar_110" formatted="false">"Show . to the right of the spacebar"</string>
+    <string name="settings_appearance_111" formatted="false">"Appearance"</string>
+    <string name="settings_font_size_1_s_112" formatted="true">"Font size: %1$s%%"</string>
+    <string name="settings_use_device_font_size_113" formatted="false">"Use device font size"</string>
+    <string name="settings_device_font_size_applied_1_s_114" formatted="true">"Device font size applied (%1$s%%)"</string>
+    <string name="settings_emoji_size_115" formatted="false">"Emoji size"</string>
+    <string name="settings_default_116" formatted="false">"Default"</string>
+    <string name="settings_layout_and_quick_actions_117" formatted="false">"Layout and quick actions"</string>
+    <string name="settings_suggestion_bar_118" formatted="false">"Suggestion bar"</string>
+    <string name="settings_show_the_suggestion_and_tools_bar_119" formatted="false">"Show the suggestion and tools bar"</string>
+    <string name="settings_automatic_periods_120" formatted="false">"Automatic periods"</string>
+    <string name="settings_insert_a_period_and_space_when_you_double_tap_th_121" formatted="false">"Insert a period and space when you double-tap the spacebar"</string>
+    <string name="settings_space_after_punctuation_122" formatted="false">"Space after punctuation"</string>
+    <string name="settings_automatically_insert_a_space_after_123" formatted="false">"Automatically insert a space after , . ! ? : ;"</string>
+    <string name="settings_switch_back_after_an_apostrophe_124" formatted="false">"Switch back after an apostrophe"</string>
+    <string name="settings_return_to_letters_immediately_after_typing_an_ap_125" formatted="false">"Return to letters immediately after typing an apostrophe (')"</string>
+    <string name="settings_long_press_symbols_126" formatted="false">"Long-press symbols"</string>
+    <string name="settings_open_extra_symbols_when_holding_a_key_127" formatted="false">"Open extra symbols when holding a key"</string>
+    <string name="settings_swipe_down_for_symbols_128" formatted="false">"Swipe down for symbols"</string>
+    <string name="settings_touch_a_key_and_drag_down_to_enter_its_extra_sym_129" formatted="false">"Touch a key and drag down to enter its extra symbol"</string>
+    <string name="settings_quick_symbol_gesture_from_123_130" formatted="false">"Quick symbol gesture from ?123"</string>
+    <string name="settings_hold_123_slide_to_a_symbol_and_release_to_return_131" formatted="false">"Hold ?123, slide to a symbol and release to return to letters"</string>
+    <string name="settings_swipe_to_delete_on_132" formatted="false">"Swipe to delete on ⌫"</string>
+    <string name="settings_swipe_left_from_backspace_to_select_1_4_words_dr_133" formatted="false">"Swipe left from Backspace to select 1–4 words; drag back right to cancel"</string>
+    <string name="settings_change_selection_case_with_shift_134" formatted="false">"Change selection case with Shift (⇧)"</string>
+    <string name="settings_tap_with_text_selected_to_cycle_text_text_text_135" formatted="false">"Tap ⇧ with text selected to cycle: text → Text → TEXT"</string>
+    <string name="settings_prevent_accidental_sends_double_enter_136" formatted="false">"Prevent accidental sends (double Enter)"</string>
+    <string name="settings_in_messaging_apps_double_tap_send_when_the_text_137" formatted="false">"In messaging apps, double-tap Send when the text contains more than one word"</string>
+    <string name="settings_touch_sensitivity_138" formatted="false">"Touch sensitivity"</string>
+    <string name="settings_low_139" formatted="false">"Low"</string>
+    <string name="settings_normal_140" formatted="false">"Normal"</string>
+    <string name="settings_high_141" formatted="false">"High"</string>
+    <string name="settings_key_presses_and_app_142" formatted="false">"Key presses and app"</string>
+    <string name="settings_long_press_duration_1_s_ms_143" formatted="true">"Long-press duration: %1$s ms"</string>
+    <string name="settings_app_icon_144" formatted="false">"App icon"</string>
+    <string name="settings_show_claritykey_in_the_app_drawer_145" formatted="false">"Show ClarityKey in the app drawer"</string>
+    <string name="settings_app_icon_shown_in_the_app_drawer_146" formatted="false">"App icon shown in the app drawer"</string>
+    <string name="settings_icon_hidden_settings_are_still_available_through_147" formatted="false">"Icon hidden (settings are still available through ⚙ on the keyboard)"</string>
+    <string name="settings_adaptive_typing_and_gestures_148" formatted="false">"Adaptive typing and gestures"</string>
+    <string name="settings_smart_touch_detection_149" formatted="false">"Smart touch detection"</string>
+    <string name="settings_use_touch_coordinates_and_word_context_near_key_150" formatted="false">"Use touch coordinates and word context near key boundaries"</string>
+    <string name="settings_automatic_calibration_151" formatted="false">"Automatic calibration"</string>
+    <string name="settings_gradually_adapt_to_finger_offsets_without_moving_152" formatted="false">"Gradually adapt to finger offsets without moving the keys"</string>
+    <string name="settings_swipe_typing_153" formatted="false">"Swipe typing"</string>
+    <string name="settings_slide_your_finger_from_letter_to_letter_ru_en_154" formatted="false">"Slide your finger from letter to letter (RU / EN)"</string>
+    <string name="settings_touches_learned_1_s_155" formatted="true">"Touches learned: %1$s"</string>
+    <string name="settings_a_short_exercise_to_fine_tune_touch_accuracy_156" formatted="false">"A short exercise to fine-tune touch accuracy"</string>
+    <string name="settings_dynamic_key_touch_areas_157" formatted="false">"Dynamic key touch areas"</string>
+    <string name="settings_slightly_expand_the_touch_areas_of_likely_next_l_158" formatted="false">"Slightly expand the touch areas of likely next letters"</string>
+    <string name="settings_typing_calibration_159" formatted="false">"Typing calibration"</string>
+    <string name="settings_words_1_s_finger_offset_160" formatted="true">"Words: %1$s • finger offset"</string>
+    <string name="settings_suggestions_and_autocorrection_161" formatted="false">"Suggestions and autocorrection"</string>
+    <string name="settings_word_suggestions_162" formatted="false">"Word suggestions"</string>
+    <string name="settings_show_up_to_3_suggestions_while_typing_163" formatted="false">"Show up to 3 suggestions while typing"</string>
+    <string name="settings_next_word_prediction_164" formatted="false">"Next-word prediction"</string>
+    <string name="settings_use_the_previous_word_and_familiar_phrases_165" formatted="false">"Use the previous word and familiar phrases"</string>
+    <string name="settings_mixed_ru_en_suggestions_166" formatted="false">"Mixed RU + EN suggestions"</string>
+    <string name="settings_suggest_common_english_words_ok_wi_fi_telegram_p_167" formatted="false">"Suggest common English words (OK, Wi-Fi, Telegram, PDF) on the Russian layout"</string>
+    <string name="settings_predictive_emoji_suggestions_168" formatted="false">"Predictive emoji suggestions"</string>
+    <string name="settings_suggest_emoji_based_on_the_word_fire_coffee_169" formatted="false">"Suggest emoji based on the word (fire → 🔥, coffee → ☕)"</string>
+    <string name="settings_join_and_split_words_170" formatted="false">"Join and split words"</string>
+    <string name="settings_suggest_missing_or_extra_spaces_171" formatted="false">"Suggest missing or extra spaces (приветкак → привет как, при вет → привет)"</string>
+    <string name="settings_autocorrection_172" formatted="false">"Autocorrection"</string>
+    <string name="settings_correct_typos_transposed_or_missing_letters_and_173" formatted="false">"Correct typos, transposed or missing letters, and ё"</string>
+    <string name="settings_correct_on_space_174" formatted="false">"Correct on space"</string>
+    <string name="settings_apply_corrections_when_pressing_space_undo_with_175" formatted="false">"Apply corrections when pressing space (undo with Backspace)"</string>
+    <string name="settings_undo_autocorrection_with_backspace_176" formatted="false">"Undo autocorrection with Backspace (⌫)"</string>
+    <string name="settings_the_first_immediately_after_a_correction_restore_177" formatted="false">"The first ⌫ immediately after a correction restores the original word"</string>
+    <string name="settings_autocorrection_strength_178" formatted="false">"Autocorrection strength"</string>
+    <string name="settings_gentle_179" formatted="false">"Gentle"</string>
+    <string name="settings_standard_180" formatted="false">"Standard"</string>
+    <string name="settings_aggressive_181" formatted="false">"Aggressive"</string>
+    <string name="settings_auto_capitalization_182" formatted="false">"Auto-capitalization"</string>
+    <string name="settings_start_each_sentence_with_a_capital_letter_183" formatted="false">"Start each sentence with a capital letter"</string>
+    <string name="settings_automatic_punctuation_184" formatted="false">"Automatic punctuation"</string>
+    <string name="settings_double_tap_the_spacebar_to_insert_a_period_185" formatted="false">"Double-tap the spacebar to insert a period"</string>
+    <string name="settings_personalization_186" formatted="false">"Personalization"</string>
+    <string name="settings_personal_learning_187" formatted="false">"Personal learning"</string>
+    <string name="settings_learn_frequent_words_names_and_phrases_locally_e_188" formatted="false">"Learn frequent words, names and phrases locally (except passwords)"</string>
+    <string name="settings_calculator_in_suggestions_189" formatted="false">"Calculator in suggestions"</string>
+    <string name="settings_evaluate_expressions_such_as_1450_12_in_the_sugg_190" formatted="false">"Evaluate expressions such as 1450*12= in the suggestion bar"</string>
+    <string name="settings_smart_calculator_and_time_191" formatted="false">"Smart calculator (% and time)"</string>
+    <string name="settings_calculate_percentages_and_time_offsets_1500_15_1_192" formatted="false">"Calculate percentages and time offsets (1500+15%=, 14:30+45m)"</string>
+    <string name="settings_smart_typography_quotes_193" formatted="false">"Smart typography («quotes», —, …)"</string>
+    <string name="settings_replace_with_with_with_and_c_with_194" formatted="false">"Replace \"...\" with «...», -- with —, ... with …, and (c) with ©"</string>
+    <string name="settings_detect_the_intended_layout_ru_en_195" formatted="false">"Detect the intended layout (RU⇄EN)"</string>
+    <string name="settings_suggest_when_you_type_ghbdtn_on_the_english_layo_196" formatted="false">"Suggest «привет» when you type «ghbdtn» on the English layout"</string>
+    <string name="settings_autofill_and_personal_memory_197" formatted="false">"Autofill and personal memory"</string>
+    <string name="settings_phrases_autofill_profile_gestures_and_password_p_198" formatted="false">"Phrases, autofill profile, gestures and password protection"</string>
+    <string name="settings_shortcuts_1_s_e_g_email_199" formatted="true">"Shortcuts: %1$s (e.g. @@ → email)"</string>
+    <string name="settings_saved_words_1_s_200" formatted="true">"Saved words: %1$s"</string>
+    <string name="settings_reset_personal_typing_data_201" formatted="false">"Reset personal typing data"</string>
+    <string name="settings_reset_learned_data_202" formatted="false">"Reset learned data?"</string>
+    <string name="settings_this_clears_personal_words_word_frequencies_and_203" formatted="false">"This clears personal words, word frequencies and touch calibration."</string>
+    <string name="settings_reset_204" formatted="false">"Reset"</string>
+    <string name="settings_personal_typing_data_reset_205" formatted="false">"Personal typing data reset"</string>
+    <string name="settings_local_typing_statistics_206" formatted="false">"Local typing statistics"</string>
+    <string name="settings_track_typing_speed_deletion_rate_and_touch_offse_207" formatted="false">"Track typing speed, deletion rate and touch offset on this device"</string>
+    <string name="settings_speed_and_accuracy_208" formatted="false">"Speed and accuracy"</string>
+    <string name="settings_typing_speed_209" formatted="false">"Typing speed"</string>
+    <string name="settings_1_s_chars_min_2_s_words_min_210" formatted="true">"%1$s chars/min  •  ~%2$s words/min"</string>
+    <string name="settings_typing_without_backspace_211" formatted="false">"Typing without Backspace"</string>
+    <string name="settings_1_s_characters_typed_2_s_words_3_s_212" formatted="true">"%1$s%%  (characters typed: %2$s, words: %3$s)"</string>
+    <string name="settings_average_touch_offset_1_s_2_s_213" formatted="true">"Average touch offset (%1$s_%2$s)"</string>
+    <string name="settings_touches_learned_1_s_average_offset_x_2_s_y_3_s_214" formatted="true">"Touches learned: %1$s • Average offset: ΔX=%2$s, ΔY=%3$s"</string>
+    <string name="settings_type_or_complete_calibration_to_see_your_average_215" formatted="false">"Type or complete calibration to see your average touch offset."</string>
+    <string name="settings_reset_statistics_216" formatted="false">"Reset statistics"</string>
+    <string name="settings_typing_statistics_cleared_217" formatted="false">"Typing statistics cleared"</string>
+    <string name="settings_current_touch_model_1_s_218" formatted="true">"Current touch model (%1$s)"</string>
+    <string name="settings_touches_recorded_1_s_nx_offset_2_s_of_key_width_219" formatted="true">"Touches recorded: %1$s\nX offset: %2$s%% of key width • Y offset: %3$s%% of key height"</string>
+    <string name="settings_tap_the_highlighted_key_naturally_1_s_1_2_s_228" formatted="true">"Tap the highlighted key naturally: «%1$s» (1/%2$s)"</string>
+    <string name="settings_tap_the_key_naturally_1_s_2_s_3_s_229" formatted="true">"Tap the key naturally: «%1$s» (%2$s/%3$s)"</string>
+    <string name="settings_calibration_complete_offset_x_1_s_y_2_s_touches_230" formatted="true">"Calibration complete! Offset: X %1$s%%, Y %2$s%% (touches: %3$s)"</string>
+    <string name="settings_start_again_231" formatted="false">"Start again"</string>
+    <string name="settings_reset_calibration_232" formatted="false">"Reset calibration"</string>
+    <string name="settings_calibration_reset_233" formatted="false">"Calibration reset"</string>
+    <string name="settings_system_dark_234" formatted="false">"System (Dark)"</string>
+    <string name="settings_system_light_235" formatted="false">"System (Light)"</string>
+    <string name="settings_background_236" formatted="false">"Background"</string>
+    <string name="settings_classic_237" formatted="false">"Classic"</string>
+    <string name="settings_floating_238" formatted="false">"Floating"</string>
+    <string name="settings_one_handed_left_239" formatted="false">"One-handed (left)"</string>
+    <string name="settings_one_handed_right_240" formatted="false">"One-handed (right)"</string>
+    <string name="settings_height_1_s_241" formatted="true">"Height %1$s%%"</string>
+    <string name="settings_keyboard_preview_242" formatted="false">"Keyboard preview"</string>
+    <string name="settings_russian_248" formatted="false">"Russian"</string>
+    <string name="settings_follow_system_1_s_249" formatted="true">"Follow system (%1$s)"</string>
+    <string name="settings_selected_dimming_1_s_250" formatted="true">"Selected • dimming %1$s%%"</string>
+    <string name="settings_not_selected_251" formatted="false">"Not selected"</string>
+    <string name="settings_floating_keyboard_height_1_s_252" formatted="true">"Floating keyboard • height %1$s%%"</string>
+    <string name="settings_one_handed_height_1_s_253" formatted="true">"One-handed • height %1$s%%"</string>
+    <string name="settings_height_1_s_bottom_padding_2_s_254" formatted="true">"Height %1$s%% • bottom padding %2$s"</string>
+    <string name="settings_custom_key_colors_255" formatted="false">"Custom key colors"</string>
+    <string name="settings_follow_theme_presets_and_rgb_for_letters_shift_256" formatted="false">"Follow theme (presets and RGB for letters, Shift, ⌫, 🌐)"</string>
+    <string name="settings_font_1_s_2_s_emoji_per_row_257" formatted="true">"Font %1$s%% • %2$s emoji per row • "</string>
+    <string name="settings_numbers_on_258" formatted="false">"Numbers on"</string>
+    <string name="settings_numbers_auto_259" formatted="false">"Numbers auto"</string>
+    <string name="settings_size_one_handed_and_floating_modes_260" formatted="false">"Size, one-handed and floating modes"</string>
+    <string name="settings_light_and_dark_theme_261" formatted="false">"Light and dark theme"</string>
+    <string name="settings_follow_system_theme_auto_262" formatted="false">"Follow system theme (Auto)"</string>
+    <string name="settings_current_system_theme_1_s_263" formatted="true">"Current system theme: %1$s"</string>
+    <string name="settings_surface_style_264" formatted="false">"Surface style"</string>
+    <string name="settings_liquid_glass_settings_265" formatted="false">"Liquid Glass settings"</string>
+    <string name="settings_opacity_1_s_266" formatted="true">"Opacity: %1$s%%"</string>
+    <string name="settings_blur_1_s_px_267" formatted="true">"Blur: %1$s px"</string>
+    <string name="settings_use_wallpaper_colors_for_enter_and_suggestions_o_268" formatted="false">"Use wallpaper colors for Enter and suggestions on Android 12+"</string>
+    <string name="settings_scheduled_night_theme_22_00_07_00_269" formatted="false">"Scheduled night theme (22:00–07:00)"</string>
+    <string name="settings_automatically_switch_to_a_dark_theme_at_night_270" formatted="false">"Automatically switch to a dark theme at night"</string>
+    <string name="settings_share_a_theme_with_a_code_271" formatted="false">"Share a theme with a code"</string>
+    <string name="settings_paste_a_ck1_code_to_apply_a_theme_272" formatted="false">"Paste a CK1:… code to apply a theme"</string>
+    <string name="settings_copy_code_273" formatted="false">"Copy code"</string>
+    <string name="settings_theme_code_copied_to_clipboard_274" formatted="false">"Theme code copied to clipboard"</string>
+    <string name="settings_apply_275" formatted="false">"Apply"</string>
+    <string name="settings_theme_applied_276" formatted="false">"Theme applied"</string>
+    <string name="settings_invalid_theme_code_277" formatted="false">"Invalid theme code"</string>
+    <string name="settings_letters_278" formatted="false">"Letters"</string>
+    <string name="settings_press_279" formatted="false">"Press"</string>
+    <string name="settings_choose_a_key_group_280" formatted="false">"Choose a key group"</string>
+    <string name="settings_follow_theme_281" formatted="false">"Follow theme"</string>
+    <string name="settings_milk_282" formatted="false">"Milk"</string>
+    <string name="settings_graphite_283" formatted="false">"Graphite"</string>
+    <string name="settings_slate_284" formatted="false">"Slate"</string>
+    <string name="settings_ocean_285" formatted="false">"Ocean"</string>
+    <string name="settings_sage_286" formatted="false">"Sage"</string>
+    <string name="settings_olive_287" formatted="false">"Olive"</string>
+    <string name="settings_terracotta_288" formatted="false">"Terracotta"</string>
+    <string name="settings_burgundy_289" formatted="false">"Burgundy"</string>
+    <string name="settings_lavender_290" formatted="false">"Lavender"</string>
+    <string name="settings_sand_291" formatted="false">"Sand"</string>
+    <string name="settings_soft_color_presets_292" formatted="false">"Soft color presets"</string>
+    <string name="settings_fine_tune_rgb_1_s_293" formatted="true">"Fine-tune RGB (%1$s)"</string>
+    <string name="settings_red_r_294" formatted="false">"Red (R)"</string>
+    <string name="settings_green_g_295" formatted="false">"Green (G)"</string>
+    <string name="settings_blue_b_296" formatted="false">"Blue (B)"</string>
+    <string name="settings_reset_all_colors_to_theme_297" formatted="false">"Reset all colors to theme"</string>
+    <string name="settings_key_colors_reset_to_theme_298" formatted="false">"Key colors reset to theme"</string>
+    <string name="settings_background_and_dimming_299" formatted="false">"Background and dimming"</string>
+    <string name="settings_choose_photo_300" formatted="false">"Choose photo"</string>
+    <string name="settings_keyboard_wallpaper_reset_301" formatted="false">"Keyboard wallpaper reset"</string>
+    <string name="settings_wallpaper_dimming_1_s_302" formatted="true">"Wallpaper dimming: %1$s%%"</string>
+    <string name="settings_automatic_wallpaper_contrast_303" formatted="false">"Automatic wallpaper contrast"</string>
+    <string name="settings_adjust_text_contrast_for_light_and_dark_photos_304" formatted="false">"Adjust text contrast for light and dark photos"</string>
+    <string name="settings_size_and_typing_modes_305" formatted="false">"Size and typing modes"</string>
+    <string name="settings_portrait_height_1_s_306" formatted="true">"Portrait height: %1$s%%"</string>
+    <string name="settings_landscape_height_1_s_307" formatted="true">"Landscape height: %1$s%%"</string>
+    <string name="settings_one_handed_mode_308" formatted="false">"One-handed mode"</string>
+    <string name="settings_off_309" formatted="false">"Off"</string>
+    <string name="settings_left_310" formatted="false">"Left"</string>
+    <string name="settings_right_311" formatted="false">"Right"</string>
+    <string name="settings_floating_keyboard_312" formatted="false">"Floating keyboard"</string>
+    <string name="settings_drag_the_bottom_handle_to_move_the_keyboard_over_313" formatted="false">"Drag the bottom ≡ handle to move the keyboard over apps"</string>
+    <string name="settings_reset_position_to_center_314" formatted="false">"Reset position to center"</string>
+    <string name="settings_floating_keyboard_position_reset_315" formatted="false">"Floating keyboard position reset"</string>
+    <string name="settings_bottom_padding_and_keys_316" formatted="false">"Bottom padding and keys"</string>
+    <string name="settings_auto_317" formatted="false">"Auto"</string>
+    <string name="settings_compact_318" formatted="false">"Compact"</string>
+    <string name="settings_standard_319" formatted="false">"Standard"</string>
+    <string name="settings_large_320" formatted="false">"Large"</string>
+    <string name="settings_key_popup_321" formatted="false">"Key popup"</string>
+    <string name="settings_show_an_enlarged_character_preview_when_pressing_322" formatted="false">"Show an enlarged character preview when pressing a key"</string>
+    <string name="settings_key_shadows_323" formatted="false">"Key shadows"</string>
+    <string name="settings_soft_depth_below_keys_in_classic_and_glass_theme_324" formatted="false">"Soft depth below keys in classic and glass themes"</string>
+    <string name="settings_colored_key_press_highlight_325" formatted="false">"Colored key-press highlight"</string>
+    <string name="settings_highlight_the_pressed_key_outline_with_the_selec_326" formatted="false">"Highlight the pressed key outline with the selected color"</string>
+    <string name="settings_choose_highlight_color_327" formatted="false">"Choose highlight color →"</string>
+    <string name="settings_key_corner_radius_1_s_dp_328" formatted="true">"Key corner radius: %1$s dp"</string>
+    <string name="settings_landscape_layout_329" formatted="false">"Landscape layout"</string>
+    <string name="settings_compact_330" formatted="false">"Compact"</string>
+    <string name="settings_split_331" formatted="false">"Split"</string>
+    <string name="settings_full_332" formatted="false">"Full"</string>
+    <string name="settings_arrow_row_333" formatted="false">"Arrow row (⇤ ← ↑ ↓ → ⇥)"</string>
+    <string name="settings_a_slim_navigation_row_for_text_spreadsheets_and_334" formatted="false">"A slim navigation row for text, spreadsheets and Termux"</string>
+    <string name="settings_toolbar_button_preset_335" formatted="false">"Toolbar button preset"</string>
+    <string name="settings_menu_translate_like_gboard_336" formatted="false">"Menu + Translate (like Gboard)"</string>
+    <string name="settings_menu_emoji_337" formatted="false">"Menu + Emoji"</string>
+    <string name="settings_menu_one_handed_incognito_338" formatted="false">"Menu + One-handed + Incognito"</string>
+    <string name="settings_customize_slots_tap_a_slot_339" formatted="false">"Customize slots (tap a slot)"</string>
+    <string name="settings_menu_2_3_340" formatted="false">"⊞ Menu (2×3)"</string>
+    <string name="settings_clipboard_341" formatted="false">"📋 Clipboard"</string>
+    <string name="settings_a_translate_342" formatted="false">"文/A Translate"</string>
+    <string name="settings_emoji_and_stickers_343" formatted="false">"☺ Emoji and stickers"</string>
+    <string name="settings_settings_344" formatted="false">"⚙ Settings"</string>
+    <string name="settings_voice_typing_345" formatted="false">"🎤 Voice typing"</string>
+    <string name="settings_incognito_346" formatted="false">"🕶 Incognito"</string>
+    <string name="settings_one_handed_347" formatted="false">"◧ One-handed"</string>
+    <string name="settings_text_editor_348" formatted="false">"✎ Text editor"</string>
+    <string name="settings_slot_1_s_349" formatted="true">"Slot %1$s"</string>
+    <string name="settings_change_350" formatted="false">"Change ↻"</string>
+    <string name="settings_haptic_feedback_351" formatted="false">"Haptic feedback"</string>
+    <string name="settings_brief_vibration_when_pressing_keys_352" formatted="false">"Brief vibration when pressing keys"</string>
+    <string name="settings_different_haptics_by_key_type_353" formatted="false">"Different haptics by key type"</string>
+    <string name="settings_a_soft_click_for_letters_firmer_for_shift_and_st_354" formatted="false">"A soft click for letters, firmer for Shift/⌫, and stronger for Enter"</string>
+    <string name="settings_vibration_duration_1_s_ms_355" formatted="true">"Vibration duration: %1$s ms"</string>
+    <string name="settings_keypress_sound_356" formatted="false">"Keypress sound"</string>
+    <string name="settings_play_claritykey_key_sounds_ogg_while_typing_357" formatted="false">"Play ClarityKey key sounds (.ogg) while typing"</string>
+    <string name="settings_sound_profile_358" formatted="false">"Sound profile"</string>
+    <string name="settings_quiet_359" formatted="false">"Quiet"</string>
+    <string name="settings_mechanical_360" formatted="false">"Mechanical"</string>
+    <string name="settings_keypress_volume_1_s_361" formatted="true">"Keypress volume: %1$s%%"</string>
+    <string name="settings_1_hour_362" formatted="false">"1 hour"</string>
+    <string name="settings_24_hours_363" formatted="false">"24 hours"</string>
+    <string name="settings_7_days_364" formatted="false">"7 days"</string>
+    <string name="settings_30_days_365" formatted="false">"30 days"</string>
+    <string name="settings_forever_366" formatted="false">"Forever"</string>
+    <string name="settings_auto_save_367" formatted="false">"Auto-save"</string>
+    <string name="settings_save_copied_text_to_local_history_368" formatted="false">"Save copied text to local history"</string>
+    <string name="settings_smart_clipboard_replies_369" formatted="false">"Smart clipboard replies"</string>
+    <string name="settings_suggest_a_reply_or_your_saved_email_phone_number_370" formatted="false">"Suggest a reply or your saved email/phone number for a copied question"</string>
+    <string name="settings_sms_and_push_verification_codes_otp_371" formatted="false">"SMS and push verification codes (OTP)"</string>
+    <string name="settings_active_codes_stay_in_ram_for_90_sec_and_are_remo_372" formatted="false">"Active: codes stay in RAM for 90 sec and are removed immediately after insertion"</string>
+    <string name="settings_requires_notification_access_no_read_sms_permiss_373" formatted="false">"Requires notification access (no READ_SMS permission or disk storage)"</string>
+    <string name="settings_open_settings_notification_access_claritykey_374" formatted="false">"Open Settings → Notification access → ClarityKey"</string>
+    <string name="settings_open_notification_access_375" formatted="false">"Open notification access"</string>
+    <string name="settings_quick_paste_on_the_toolbar_376" formatted="false">"Quick paste on the toolbar"</string>
+    <string name="settings_show_a_chip_for_the_most_recently_copied_text_377" formatted="false">"Show a chip for the most recently copied text"</string>
+    <string name="settings_confirm_bulk_deletion_378" formatted="false">"Confirm bulk deletion"</string>
+    <string name="settings_ask_before_clearing_recent_entries_379" formatted="false">"Ask before clearing recent entries"</string>
+    <string name="settings_keep_unpinned_entries_for_380" formatted="false">"Keep unpinned entries for"</string>
+    <string name="settings_30_days_default_381" formatted="false">"30 days (default)"</string>
+    <string name="settings_unpinned_entry_limit_382" formatted="false">"Unpinned entry limit"</string>
+    <string name="settings_1_s_entries_default_383" formatted="true">"%1$s entries (default)"</string>
+    <string name="settings_1_s_entries_384" formatted="true">"%1$s entries"</string>
+    <string name="settings_clipboard_cards_385" formatted="false">"Clipboard cards"</string>
+    <string name="settings_show_source_app_386" formatted="false">"Show source app"</string>
+    <string name="settings_show_its_icon_and_name_when_source_information_i_387" formatted="false">"Show its icon and name when source information is available from Android"</string>
+    <string name="settings_show_copy_time_388" formatted="false">"Show copy time"</string>
+    <string name="settings_a_compact_timestamp_at_the_bottom_right_of_each_389" formatted="false">"A compact timestamp at the bottom right of each card"</string>
+    <string name="settings_view_full_text_on_long_press_390" formatted="false">"View full text on long press"</string>
+    <string name="settings_add_full_text_to_the_context_menu_for_long_entri_391" formatted="false">"Add Full text to the context menu for long entries"</string>
+    <string name="settings_preview_lines_392" formatted="false">"Preview lines"</string>
+    <string name="settings_images_and_screenshots_393" formatted="false">"Images and screenshots"</string>
+    <string name="settings_save_copied_images_394" formatted="false">"Save copied images"</string>
+    <string name="settings_automatically_save_images_png_jpg_webp_gif_from_395" formatted="false">"Automatically save images (PNG, JPG, WebP, GIF) from the system clipboard"</string>
+    <string name="settings_show_image_suggestions_396" formatted="false">"Show image suggestions"</string>
+    <string name="settings_show_a_small_thumbnail_for_copied_images_on_the_397" formatted="false">"Show a small thumbnail for copied images on the toolbar"</string>
+    <string name="settings_suggest_recent_screenshots_398" formatted="false">"Suggest recent screenshots"</string>
+    <string name="settings_automatically_add_a_new_screenshot_to_the_clipbo_399" formatted="false">"Automatically add a new screenshot to the clipboard and show a thumbnail"</string>
+    <string name="settings_requires_photo_access_or_you_can_use_photo_picke_400" formatted="false">"Requires photo access, or you can use Photo Picker"</string>
+    <string name="settings_recent_screenshot_access_401" formatted="false">"Recent screenshot access"</string>
+    <string name="settings_the_keyboard_checks_only_the_latest_screenshot_f_402" formatted="false">"The keyboard checks only the latest screenshot from the last 2 minutes using MediaStore. Data stays on your device. You can also add images manually with Photo Picker without this permission."</string>
+    <string name="settings_allow_403" formatted="false">"Allow"</string>
+    <string name="settings_automatic_cleanup_404" formatted="false">"Automatic cleanup"</string>
+    <string name="settings_delete_old_unpinned_images_when_limits_are_excee_405" formatted="false">"Delete old unpinned images when limits are exceeded"</string>
+    <string name="settings_keep_images_for_406" formatted="false">"Keep images for"</string>
+    <string name="settings_1_day_407" formatted="false">"1 day"</string>
+    <string name="settings_7_days_408" formatted="false">"7 days"</string>
+    <string name="settings_30_days_409" formatted="false">"30 days"</string>
+    <string name="settings_maximum_images_410" formatted="false">"Maximum images"</string>
+    <string name="settings_storage_limit_411" formatted="false">"Storage limit"</string>
+    <string name="settings_25_mb_412" formatted="false">"25 MB"</string>
+    <string name="settings_50_mb_413" formatted="false">"50 MB"</string>
+    <string name="settings_100_mb_414" formatted="false">"100 MB"</string>
+    <string name="settings_calculating_image_storage_415" formatted="false">"Calculating image storage…"</string>
+    <string name="settings_nnote_pinned_images_use_substantial_storage_and_416" formatted="false">"\nNote: pinned images use substantial storage and are not automatically deleted."</string>
+    <string name="settings_unpinned_d_1f_mb_pinned_d_1f_mb_s_417" formatted="true">"Unpinned: %1$d (%2$.1f MB) • Pinned: %3$d (%4$.1f MB)%5$s"</string>
+    <string name="settings_choose_image_photo_picker_418" formatted="false">"Choose image (Photo Picker)"</string>
+    <string name="settings_smart_paste_419" formatted="false">"Smart paste"</string>
+    <string name="settings_smart_detection_420" formatted="false">"Smart detection"</string>
+    <string name="settings_find_links_phone_numbers_emails_dates_and_orders_421" formatted="false">"Find links, phone numbers, emails, dates and orders locally in text"</string>
+    <string name="settings_suggest_individual_fragments_422" formatted="false">"Suggest individual fragments"</string>
+    <string name="settings_show_a_compact_detected_content_indicator_on_cli_423" formatted="false">"Show a compact detected-content indicator on clipboard cards"</string>
+    <string name="settings_quick_suggestions_424" formatted="false">"Quick suggestions"</string>
+    <string name="settings_show_paste_link_phone_email_or_smart_paste_on_th_425" formatted="false">"Show Paste link/phone/email or Smart paste on the toolbar"</string>
+    <string name="settings_detect_links_426" formatted="false">"Detect links"</string>
+    <string name="settings_http_https_and_www_addresses_keeping_their_param_427" formatted="false">"HTTP/HTTPS and www addresses, keeping their parameters"</string>
+    <string name="settings_detect_phone_numbers_428" formatted="false">"Detect phone numbers"</string>
+    <string name="settings_international_and_russian_phone_numbers_filterin_429" formatted="false">"International and Russian phone numbers, filtering out unrelated numbers"</string>
+    <string name="settings_detect_email_addresses_430" formatted="false">"Detect email addresses"</string>
+    <string name="settings_email_addresses_within_messages_431" formatted="false">"Email addresses within messages"</string>
+    <string name="settings_dates_and_times_432" formatted="false">"Dates and times"</string>
+    <string name="settings_25_11_2026_25_2026_11_25_14_30_18_45_433" formatted="false">"25.11.2026, 25 ноября, 2026-11-25, 14:30, 18:45"</string>
+    <string name="settings_addresses_and_coordinates_434" formatted="false">"Addresses and coordinates"</string>
+    <string name="settings_city_street_building_apartment_and_gps_coordinat_435" formatted="false">"City, street, building, apartment and GPS coordinates"</string>
+    <string name="settings_amounts_and_bank_details_436" formatted="false">"Amounts and bank details"</string>
+    <string name="settings_amounts_iban_mod_97_russian_tax_ids_checksum_ban_437" formatted="false">"Amounts, IBAN (Mod-97), Russian tax IDs (checksum), bank codes and accounts"</string>
+    <string name="settings_orders_and_shipments_438" formatted="false">"Orders and shipments"</string>
+    <string name="settings_order_references_parcel_tracking_numbers_and_fli_439" formatted="false">"Order references, parcel tracking numbers and flight numbers"</string>
+    <string name="settings_promo_codes_and_product_ids_440" formatted="false">"Promo codes and product IDs"</string>
+    <string name="settings_promo_codes_coupons_product_ids_and_license_plat_441" formatted="false">"Promo codes, coupons, product IDs and license plates"</string>
+    <string name="settings_names_and_organizations_442" formatted="false">"Names and organizations"</string>
+    <string name="settings_russian_full_names_patronymic_label_checks_and_c_443" formatted="false">"Russian full names (patronymic/label checks) and company names (ООО, АО, ИП)"</string>
+    <string name="settings_hide_sensitive_data_444" formatted="false">"Hide sensitive data"</string>
+    <string name="settings_hide_verification_codes_and_card_numbers_from_qu_445" formatted="false">"Hide verification codes and card numbers from quick suggestions"</string>
+    <string name="settings_text_recognition_in_images_446" formatted="false">"Text recognition in images"</string>
+    <string name="settings_local_tesseract_ru_en_ocr_with_extract_text_with_447" formatted="false">"Local Tesseract RU+EN OCR with Extract text, without cloud processing"</string>
+    <string name="settings_automatically_recognize_new_images_448" formatted="false">"Automatically recognize new images"</string>
+    <string name="settings_run_ocr_in_the_background_after_copying_an_image_449" formatted="false">"Run OCR in the background after copying an image (off by default)"</string>
+    <string name="settings_recognize_russian_and_english_450" formatted="false">"Recognize Russian and English"</string>
+    <string name="settings_use_mixed_ru_en_recognition_otherwise_russian_on_451" formatted="false">"Use mixed RU + EN recognition (otherwise Russian only)"</string>
+    <string name="settings_extract_links_phone_numbers_addresses_amounts_an_452" formatted="false">"Extract links, phone numbers, addresses, amounts and orders from recognized text"</string>
+    <string name="settings_save_ocr_results_453" formatted="false">"Save OCR results"</string>
+    <string name="settings_cache_recognized_text_locally_excluding_detected_454" formatted="false">"Cache recognized text locally, excluding detected sensitive data"</string>
+    <string name="settings_saved_templates_1_s_work_delivery_personal_455" formatted="true">"Saved templates: %1$s (Work / Delivery / Personal)"</string>
+    <string name="settings_secure_vault_biometrics_456" formatted="false">"🔒 Secure vault (biometrics)"</string>
+    <string name="settings_entries_1_s_aes_256_gcm_encryption_457" formatted="true">"Entries: %1$s • AES-256-GCM encryption"</string>
+    <string name="settings_work_458" formatted="false">"Work"</string>
+    <string name="settings_delivery_459" formatted="false">"Delivery"</string>
+    <string name="settings_personal_460" formatted="false">"Personal"</string>
+    <string name="settings_new_template_461" formatted="false">"New template"</string>
+    <string name="settings_tip_marks_the_cursor_position_and_insert_the_dat_462" formatted="false">"Tip: | marks the cursor position; {дата}, {завтра}, {время} and {день} insert the date, tomorrow's date, time and day automatically."</string>
+    <string name="settings_template_text_e_g_i_ll_be_there_in_15_minutes_463" formatted="false">"Template text (e.g. “I'll be there in 15 minutes”)"</string>
+    <string name="settings_add_to_1_s_464" formatted="true">"Add to “%1$s”"</string>
+    <string name="settings_template_added_to_1_s_465" formatted="true">"Template added to “%1$s”"</string>
+    <string name="settings_enter_template_text_466" formatted="false">"Enter template text"</string>
+    <string name="settings_saved_templates_tap_to_edit_467" formatted="false">"Saved templates (tap to edit)"</string>
+    <string name="settings_no_templates_yet_468" formatted="false">"No templates yet."</string>
+    <string name="settings_edit_template_1_s_469" formatted="true">"Edit template (%1$s)"</string>
+    <string name="settings_save_470" formatted="false">"Save"</string>
+    <string name="settings_delete_471" formatted="false">"Delete"</string>
+    <string name="settings_hidden_suggestion_words_1_s_472" formatted="true">"Hidden suggestion words (%1$s)"</string>
+    <string name="settings_nothing_here_yet_473" formatted="false">"Nothing here yet"</string>
+    <string name="settings_long_press_a_suggested_word_to_hide_it_permanent_474" formatted="false">"Long-press a suggested word to hide it permanently."</string>
+    <string name="settings_restore_475" formatted="false">"Restore"</string>
+    <string name="settings_secure_vault_aes_256_gcm_476" formatted="false">"🔒 Secure vault (AES-256-GCM)"</string>
+    <string name="settings_vault_entries_1_s_biometric_verification_is_requ_477" formatted="true">"Vault entries: %1$s. Biometric verification is required to view or add entries."</string>
+    <string name="settings_unlock_with_biometrics_478" formatted="false">"Unlock with biometrics"</string>
+    <string name="settings_add_a_vault_entry_tax_id_bank_details_code_479" formatted="false">"Add a vault entry (tax ID, bank details, code…)"</string>
+    <string name="settings_save_to_vault_480" formatted="false">"Save to vault"</string>
+    <string name="settings_entry_encrypted_and_saved_to_the_vault_481" formatted="false">"Entry encrypted and saved to the vault"</string>
+    <string name="settings_could_not_save_the_entry_check_the_device_keysto_482" formatted="false">"Could not save the entry. Check the device keystore"</string>
+    <string name="settings_lock_vault_483" formatted="false">"Lock vault"</string>
+    <string name="settings_voice_typing_484" formatted="false">"Voice typing"</string>
+    <string name="settings_show_the_microphone_button_on_the_keyboard_toolb_485" formatted="false">"Show the microphone button on the keyboard toolbar"</string>
+    <string name="settings_smart_dictation_with_local_text_processing_486" formatted="false">"Smart dictation with local text processing"</string>
+    <string name="settings_remove_russian_filler_words_repetitions_and_self_487" formatted="false">"Remove Russian filler words, repetitions and self-corrections (“at 5, no, at 6”), add commas and format lists"</string>
+    <string name="settings_default_processing_style_488" formatted="false">"Default processing style"</string>
+    <string name="settings_concise_489" formatted="false">"Concise"</string>
+    <string name="settings_list_490" formatted="false">"List"</string>
+    <string name="settings_microphone_access_granted_491" formatted="false">"Microphone access granted"</string>
+    <string name="settings_microphone_permission_required_492" formatted="false">"Microphone permission required"</string>
+    <string name="settings_uses_the_android_speech_recognition_service_ru_r_493" formatted="false">"Uses the Android speech recognition service (ru-RU / en-US). Voice typing is hidden in password fields."</string>
+    <string name="settings_allow_microphone_494" formatted="false">"Allow microphone"</string>
+    <string name="settings_pinned_toolbar_chips_separated_by_495" formatted="false">"Pinned toolbar chips (separated by |)"</string>
+    <string name="settings_e_g_7_999_000_00_00_https_t_me_myname_496" formatted="false">"E.g.: +7 999 000-00-00 | https://t.me/myname"</string>
+    <string name="settings_save_chips_497" formatted="false">"Save chips"</string>
+    <string name="settings_pinned_chips_saved_498" formatted="false">"Pinned chips saved"</string>
+    <string name="settings_app_499" formatted="false">"App"</string>
+    <string name="settings_automatic_app_profiles_500" formatted="false">"Automatic app profiles"</string>
+    <string name="settings_enable_the_number_row_and_disable_autocorrection_501" formatted="false">"Enable the number row and disable autocorrection in Termux"</string>
+    <string name="settings_show_app_icon_502" formatted="false">"Show app icon"</string>
+    <string name="settings_show_or_hide_claritykey_in_the_launcher_settings_503" formatted="false">"Show or hide ClarityKey in the launcher (settings remain available through ⚙ on the keyboard)"</string>
+    <string name="settings_icon_hidden_open_settings_through_on_the_keyboar_504" formatted="false">"Icon hidden (open settings through ⚙ on the keyboard)"</string>
+    <string name="settings_security_status_live_checks_505" formatted="false">"Security status (live checks)"</string>
+    <string name="settings_internet_permission_not_declared_speech_recognit_506" formatted="false">"Internet permission: not declared (speech recognition depends on the system service)"</string>
+    <string name="settings_encryption_android_keystore_aes_256_gcm_1_s_507" formatted="true">"Encryption: Android Keystore AES-256-GCM %1$s"</string>
+    <string name="settings_active_508" formatted="false">"active"</string>
+    <string name="settings_unavailable_new_encrypted_saves_are_blocked_509" formatted="false">"unavailable — new encrypted saves are blocked"</string>
+    <string name="settings_cloud_backup_disabled_allowbackup_false_app_data_510" formatted="false">"Cloud backup disabled (allowBackup=false): app databases and keys are excluded"</string>
+    <string name="settings_logging_logcat_no_typed_text_logged_511" formatted="false">"Logging (Logcat): no typed text logged"</string>
+    <string name="settings_overlay_tapjacking_and_screenshot_protection_fla_512" formatted="false">"Overlay (tapjacking) and screenshot protection (FLAG_SECURE)"</string>
+    <string name="settings_input_protection_513" formatted="false">"Input protection"</string>
+    <string name="settings_manual_incognito_mode_514" formatted="false">"Manual incognito mode"</string>
+    <string name="settings_temporarily_pause_clipboard_capture_dictionary_l_515" formatted="false">"Temporarily pause clipboard capture, dictionary learning and calibration"</string>
+    <string name="settings_auto_incognito_in_banking_and_password_apps_516" formatted="false">"Auto-incognito in banking and password apps"</string>
+    <string name="settings_disable_learning_and_phrase_collection_in_suppor_517" formatted="false">"Disable learning and phrase collection in supported banking apps, government services, Bitwarden and others"</string>
+    <string name="settings_protect_against_tapjacking_518" formatted="false">"Protect against tapjacking"</string>
+    <string name="settings_block_keyboard_touches_obscured_by_another_app_s_519" formatted="false">"Block keyboard touches obscured by another app's transparent window"</string>
+    <string name="settings_block_screenshots_of_secrets_flag_secure_520" formatted="false">"Block screenshots of secrets (FLAG_SECURE)"</string>
+    <string name="settings_prevent_screenshots_and_screen_recording_of_the_521" formatted="false">"Prevent screenshots and screen recording of the vault, autofill profile and password fields"</string>
+    <string name="settings_ignore_sensitive_clipboard_items_522" formatted="false">"Ignore sensitive clipboard items"</string>
+    <string name="settings_do_not_save_passwords_or_items_marked_extra_is_s_523" formatted="false">"Do not save passwords or items marked EXTRA_IS_SENSITIVE by Android"</string>
+    <string name="settings_hide_clipboard_previews_524" formatted="false">"Hide clipboard previews"</string>
+    <string name="settings_mask_text_and_thumbnails_until_insertion_525" formatted="false">"Mask text and thumbnails until insertion"</string>
+    <string name="settings_lock_vault_after_unlocking_526" formatted="false">"Lock vault after unlocking"</string>
+    <string name="settings_30_sec_527" formatted="false">"30 sec"</string>
+    <string name="settings_1_min_528" formatted="false">"1 min"</string>
+    <string name="settings_2_min_529" formatted="false">"2 min"</string>
+    <string name="settings_local_backup_claritykey_530" formatted="false">"Local backup (.claritykey)"</string>
+    <string name="settings_export_settings_dictionary_shortcuts_and_templat_531" formatted="false">"Export settings, dictionary, shortcuts and templates to a local JSON file. Passwords, vault entries and the autofill profile are never included."</string>
+    <string name="settings_export_claritykey_532" formatted="false">"Export .claritykey"</string>
+    <string name="settings_import_claritykey_533" formatted="false">"Import .claritykey"</string>
+    <string name="settings_clear_data_534" formatted="false">"Clear data"</string>
+    <string name="settings_clear_all_clipboard_history_including_pinned_ent_535" formatted="false">"Clear all clipboard history (including pinned entries)"</string>
+    <string name="settings_clear_all_clipboard_history_536" formatted="false">"Clear all clipboard history?"</string>
+    <string name="settings_all_text_and_image_entries_will_be_deleted_inclu_537" formatted="false">"All text and image entries will be deleted, including pinned items."</string>
+    <string name="settings_all_clipboard_history_cleared_538" formatted="false">"All clipboard history cleared"</string>
+    <string name="settings_could_not_fully_clear_clipboard_history_539" formatted="false">"Could not fully clear clipboard history"</string>
+    <string name="settings_emergency_deletion_of_all_personal_data_panic_wi_540" formatted="false">"Emergency deletion of ALL personal data (Panic Wipe)"</string>
+    <string name="settings_delete_all_personal_data_541" formatted="false">"Delete all personal data?"</string>
+    <string name="settings_this_permanently_deletes_clipboard_history_saved_542" formatted="false">"This permanently deletes clipboard history, saved images, vault entries, autofill profile, note, personal dictionary, phrase memory and touch calibration."</string>
+    <string name="settings_delete_all_543" formatted="false">"Delete all"</string>
+    <string name="settings_personal_data_cleared_544" formatted="false">"Personal data cleared"</string>
+    <string name="settings_some_files_could_not_be_deleted_545" formatted="false">"Some files could not be deleted"</string>
+    <string name="settings_version_1_s_build_2_s_546" formatted="true">"Version %1$s (build %2$s)"</string>
+    <string name="settings_package_547" formatted="false">"Package"</string>
+    <string name="settings_compatibility_548" formatted="false">"Compatibility"</string>
+    <string name="settings_universal_android_keyboard_android_9_official_an_549" formatted="false">"Universal Android keyboard (Android 9+, official Android SDK APIs only, no root or manufacturer-specific dependencies)."</string>
+    <string name="settings_dictionaries_and_open_source_components_550" formatted="false">"Dictionaries and open-source components"</string>
+    <string name="settings_ru_en_frequency_dictionaries_frequencywords_mit_551" formatted="false">"RU/EN frequency dictionaries (FrequencyWords, MIT/CC-BY-SA) and AndroidX (Apache 2.0)."</string>
+    <string name="settings_personal_typing_memory_552" formatted="false">"Personal typing memory"</string>
+    <string name="settings_words_1_s_pairs_2_s_three_word_phrases_3_s_prote_553" formatted="true">"Words: %1$s • Pairs: %2$s • Three-word phrases: %3$s • Protected from autocorrection: %4$s"</string>
+    <string name="settings_phrase_memory_bigrams_and_trigrams_554" formatted="false">"Phrase memory (bigrams and trigrams)"</string>
+    <string name="settings_learn_common_phrases_and_word_order_and_protect_555" formatted="false">"Learn common phrases and word order, and protect against repeated unwanted corrections"</string>
+    <string name="settings_clear_phrase_and_word_pair_memory_556" formatted="false">"Clear phrase and word-pair memory"</string>
+    <string name="settings_clear_personal_memory_557" formatted="false">"Clear personal memory?"</string>
+    <string name="settings_learned_word_pairs_phrases_and_the_protected_wor_558" formatted="false">"Learned word pairs, phrases and the protected-word list will be deleted."</string>
+    <string name="settings_phrase_memory_cleared_559" formatted="false">"Phrase memory cleared"</string>
+    <string name="settings_local_autofill_aes_256_gcm_560" formatted="false">"Local autofill (AES-256-GCM)"</string>
+    <string name="settings_smart_autofill_by_field_type_561" formatted="false">"Smart autofill by field type"</string>
+    <string name="settings_offer_one_tap_insertion_of_your_email_phone_numb_562" formatted="false">"Offer one-tap insertion of your email, phone number, address and name (+ system Autofill on Android 11+)"</string>
+    <string name="settings_name_full_name_563" formatted="false">"Name / full name"</string>
+    <string name="settings_email_e_g_name_gmail_com_564" formatted="false">"Email (e.g. name@gmail.com)"</string>
+    <string name="settings_phone_e_g_7_999_123_45_67_565" formatted="false">"Phone (e.g. +7 999 123-45-67)"</string>
+    <string name="settings_delivery_address_566" formatted="false">"Delivery address"</string>
+    <string name="settings_username_telegram_567" formatted="false">"Username / Telegram (@...)"</string>
+    <string name="settings_save_autofill_profile_568" formatted="false">"Save autofill profile"</string>
+    <string name="settings_autofill_profile_encrypted_and_saved_569" formatted="false">"Autofill profile encrypted and saved"</string>
+    <string name="settings_could_not_save_the_profile_check_the_device_keys_570" formatted="false">"Could not save the profile. Check the device keystore"</string>
+    <string name="settings_smart_gestures_and_privacy_571" formatted="false">"Smart gestures and privacy"</string>
+    <string name="settings_undo_word_deletion_572" formatted="false">"Undo word deletion"</string>
+    <string name="settings_show_restore_after_deleting_a_word_with_a_backsp_573" formatted="false">"Show ↩ Restore after deleting a word with a Backspace swipe"</string>
+    <string name="settings_quick_swipe_up_on_keys_574" formatted="false">"Quick swipe up on keys"</string>
+    <string name="settings_swipe_up_to_enter_a_number_or_extra_symbol_immed_575" formatted="false">"Swipe up to enter a number or extra symbol immediately; swipe up from ?123 to open the number pad"</string>
+    <string name="settings_paired_quotes_and_brackets_576" formatted="false">"Paired quotes and brackets («», (), [])"</string>
+    <string name="settings_close_pairs_with_the_cursor_inside_or_wrap_selec_577" formatted="false">"Close pairs with the cursor inside, or wrap selected text"</string>
+    <string name="settings_password_field_privacy_shield_578" formatted="false">"Password field privacy shield"</string>
+    <string name="settings_automatically_disable_key_popups_and_sound_when_579" formatted="false">"Automatically disable key popups and sound when entering passwords or PINs"</string>
+    <string name="settings_remove_tracking_parameters_from_links_580" formatted="false">"Remove tracking parameters from links"</string>
+    <string name="settings_remove_utm_yclid_fbclid_and_si_when_pasting_copi_581" formatted="false">"Remove utm_*, yclid, fbclid and si when pasting copied links"</string>
+    <string name="settings_password_generator_in_password_fields_582" formatted="false">"Password generator in password fields"</string>
+    <string name="settings_offer_create_password_16_characters_and_save_it_583" formatted="false">"Offer 🔑 Create password (16 characters) and save it to the vault"</string>
+    <string name="settings_smart_lists_with_enter_and_1_584" formatted="false">"Smart lists with Enter (• and 1.)"</string>
+    <string name="settings_continue_bulleted_and_numbered_lists_in_notes_an_585" formatted="false">"Continue bulleted and numbered lists in notes and chats"</string>
+    <string name="settings_palm_rejection_at_edges_1_s_dp_586" formatted="true">"Palm rejection at edges: %1$s dp"</string>
+    <string name="settings_new_shortcut_587" formatted="false">"New shortcut"</string>
+    <string name="settings_expand_text_shortcuts_588" formatted="false">"Expand text shortcuts"</string>
+    <string name="settings_expand_a_trigger_on_space_or_from_the_toolbar_589" formatted="false">"Expand a trigger on space or from the toolbar"</string>
+    <string name="settings_trigger_e_g_or_addr_590" formatted="false">"Trigger (e.g. @@ or addr)"</string>
+    <string name="settings_full_text_to_insert_591" formatted="false">"Full text to insert…"</string>
+    <string name="settings_add_shortcut_592" formatted="false">"Add shortcut"</string>
+    <string name="settings_saved_1_s_2_s_593" formatted="true">"Saved: %1$s → %2$s"</string>
+    <string name="settings_saved_shortcuts_1_s_594" formatted="true">"Saved shortcuts (%1$s)"</string>
+    <string name="settings_no_shortcuts_yet_add_a_trigger_above_such_as_for_595" formatted="false">"No shortcuts yet. Add a trigger above, such as @@ for your email."</string>
+    <string name="settings_contact_names_optional_596" formatted="false">"Contact names (optional)"</string>
+    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Add contact names to the dictionary so autocorrection leaves them unchanged"</string>
+    <string name="settings_enter_a_word_to_add_598" formatted="false">"Enter a word to add…"</string>
+    <string name="settings_add_599" formatted="false">"Add"</string>
+    <string name="settings_export_txt_600" formatted="false">"Export .txt"</string>
+    <string name="settings_import_txt_601" formatted="false">"Import .txt"</string>
+    <string name="settings_your_dictionary_is_empty_602" formatted="false">"Your dictionary is empty"</string>
+    <string name="settings_new_words_are_learned_as_you_type_except_in_pass_603" formatted="false">"New words are learned as you type, except in password fields and incognito mode."</string>
+    <string name="settings_ui_language_title">"Interface language"</string>
+    <string name="settings_ui_language_description">"The settings language does not change the keyboard layout"</string>
+    <string name="notification_listener_name">"ClarityKey (SMS and push codes)"</string>
+</resources>

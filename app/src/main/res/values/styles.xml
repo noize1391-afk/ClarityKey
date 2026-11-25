@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BreenoRuSettings" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF0066FF</item>
+        <item name="colorPrimaryDark">#FF0052CC</item>
+        <item name="colorAccent">#FF0066FF</item>
+    </style>
+</resources>

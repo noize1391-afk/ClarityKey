@@ -1,0 +1,8 @@
+-keep class com.claritykey.keyboard.ime.BreenoRuInputMethodService { *; }
+-keep class com.claritykey.keyboard.settings.SettingsActivity { *; }
+-keep class com.claritykey.keyboard.clipboard.ClipboardImagePickerActivity { *; }
+-keep class com.googlecode.tesseract.** { *; }
+-keep class com.googlecode.leptonica.** { *; }
+-dontwarn androidx.autofill.**
+-dontwarn com.googlecode.tesseract.**
+-dontwarn com.googlecode.leptonica.**

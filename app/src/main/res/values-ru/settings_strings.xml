@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="settings_screenshot_auto_save_enabled_1" formatted="false">"Автосохранение скриншотов включено"</string>
+    <string name="settings_microphone_access_granted_voice_typing_is_ready_2" formatted="false">"Микрофон разрешён — голосовой ввод готов"</string>
+    <string name="settings_microphone_access_denied_3" formatted="false">"Доступ к микрофону отклонён"</string>
+    <string name="settings_recent_screenshot_suggestions_enabled_4" formatted="false">"Предложение недавних скриншотов включено"</string>
+    <string name="settings_photo_access_denied_you_can_still_choose_images_5" formatted="false">"Доступ к фото отклонён — доступен ручной выбор через Photo Picker"</string>
+    <string name="settings_contact_names_imported_1_s_6" formatted="true">"Импортировано имён из контактов: %1$s"</string>
+    <string name="settings_contacts_access_was_not_granted_7" formatted="false">"Доступ к контактам не предоставлен"</string>
+    <string name="settings_claritykey_backup_saved_8" formatted="false">"Резервная копия .claritykey сохранена"</string>
+    <string name="settings_could_not_save_the_backup_9" formatted="false">"Не удалось сохранить резервную копию"</string>
+    <string name="settings_dictionary_exported_txt_10" formatted="false">"Словарь экспортирован (.txt)"</string>
+    <string name="settings_could_not_export_the_dictionary_11" formatted="false">"Ошибка экспорта словаря"</string>
+    <string name="settings_words_imported_1_s_12" formatted="true">"Импортировано слов: %1$s"</string>
+    <string name="settings_settings_and_dictionary_restored_13" formatted="false">"Настройки и словарь успешно восстановлены"</string>
+    <string name="settings_invalid_claritykey_file_14" formatted="false">"Неверный формат файла .claritykey"</string>
+    <string name="settings_claritykey_vault_15" formatted="false">"Сейф ClarityKey"</string>
+    <string name="settings_verify_your_identity_to_access_encrypted_entries_16" formatted="false">"Подтвердите личность для доступа к зашифрованным записям"</string>
+    <string name="settings_cancel_17" formatted="false">"Отмена"</string>
+    <string name="settings_vault_unlocked_for_1_s_sec_18" formatted="true">"Сейф разблокирован на %1$s сек."</string>
+    <string name="settings_biometrics_unavailable_19" formatted="false">"Биометрия недоступна"</string>
+    <string name="settings_could_not_verify_your_identity_the_vault_remains_20" formatted="false">"Не удалось подтвердить личность. Сейф закрыт"</string>
+    <string name="settings_back_21" formatted="false">"Назад"</string>
+    <string name="settings_settings_22" formatted="false">"Настройки"</string>
+    <string name="settings_languages_and_layouts_23" formatted="false">"Языки и раскладки"</string>
+    <string name="settings_keys_font_and_emoji_24" formatted="false">"Клавиши, шрифт и эмодзи"</string>
+    <string name="settings_typing_gestures_and_correction_25" formatted="false">"Ввод, жесты и исправление"</string>
+    <string name="settings_personal_dictionary_26" formatted="false">"Персональный словарь"</string>
+    <string name="settings_gestures_touch_and_calibration_27" formatted="false">"Жесты, касания и калибровка"</string>
+    <string name="settings_typing_statistics_and_touch_offset_28" formatted="false">"Статистика и тепловая карта"</string>
+    <string name="settings_text_shortcuts_29" formatted="false">"Текстовые сокращения"</string>
+    <string name="settings_autofill_and_personal_memory_30" formatted="false">"Автозаполнение и память"</string>
+    <string name="settings_appearance_and_layout_31" formatted="false">"Внешний вид и макет"</string>
+    <string name="settings_theme_system_and_glass_32" formatted="false">"Тема, система и стекло"</string>
+    <string name="settings_key_colors_33" formatted="false">"Цвета клавиш"</string>
+    <string name="settings_keyboard_wallpaper_34" formatted="false">"Обои клавиатуры"</string>
+    <string name="settings_size_and_modes_35" formatted="false">"Размеры и режимы"</string>
+    <string name="settings_toolbar_5_slots_36" formatted="false">"Верхняя панель (5 слотов)"</string>
+    <string name="settings_sound_and_vibration_37" formatted="false">"Звук и вибрация"</string>
+    <string name="settings_clipboard_38" formatted="false">"Буфер обмена"</string>
+    <string name="settings_quick_reply_templates_39" formatted="false">"Шаблоны быстрых ответов"</string>
+    <string name="settings_secure_vault_40" formatted="false">"Защищённый сейф"</string>
+    <string name="settings_voice_and_app_41" formatted="false">"Голос и приложение"</string>
+    <string name="settings_security_and_privacy_42" formatted="false">"Безопасность и приватность"</string>
+    <string name="settings_about_43" formatted="false">"О клавиатуре"</string>
+    <string name="settings_claritykey_quick_start_44" formatted="false">"✨ Быстрый старт ClarityKey"</string>
+    <string name="settings_1_enable_and_select_claritykey_below_2_choose_a_45" formatted="false">"1. Включите и выберите ClarityKey ниже  •  2. Выберите стиль (Стекло / Светлая / Тёмная)  •  3. Проверьте ввод в Песочнице."</string>
+    <string name="settings_glass_46" formatted="false">"Стекло"</string>
+    <string name="settings_light_47" formatted="false">"Светлая"</string>
+    <string name="settings_dark_48" formatted="false">"Тёмная"</string>
+    <string name="settings_done_hide_this_tip_49" formatted="false">"Готово, скрыть подсказку"</string>
+    <string name="settings_claritykey_is_active_50" formatted="false">"ClarityKey активна"</string>
+    <string name="settings_enable_your_keyboard_51" formatted="false">"Активация клавиатуры"</string>
+    <string name="settings_select_a_keyboard_or_try_the_test_field_below_52" formatted="false">"Выберите клавиатуру или проверьте ввод в поле внизу"</string>
+    <string name="settings_enable_claritykey_in_android_settings_53" formatted="false">"Включите ClarityKey в настройках Android"</string>
+    <string name="settings_select_keyboard_54" formatted="false">"Выбрать клавиатуру"</string>
+    <string name="settings_1_enable_in_android_55" formatted="false">"1. Включить в системе"</string>
+    <string name="settings_2_select_56" formatted="false">"2. Выбрать"</string>
+    <string name="settings_ru_en_number_row_on_57" formatted="false">"RU / EN • Цифровой ряд вкл."</string>
+    <string name="settings_russian_english_qwerty_58" formatted="false">"Русский (ЙЦУКЕН), English (QWERTY)"</string>
+    <string name="settings_suggestions_and_autocorrection_on_59" formatted="false">"Подсказки и автокоррекция вкл."</string>
+    <string name="settings_word_suggestions_dictionary_1_s_60" formatted="true">"Подсказки слов, словарь (%1$s)"</string>
+    <string name="settings_system_61" formatted="false">"Системная"</string>
+    <string name="settings_claritykey_light_62" formatted="false">"Светлая ClarityKey"</string>
+    <string name="settings_claritykey_dark_63" formatted="false">"Тёмная ClarityKey"</string>
+    <string name="settings_glass_background_1_s_64" formatted="true">"Подложка-стекло (%1$s%%)"</string>
+    <string name="settings_light_glass_background_1_s_65" formatted="true">"Светлая подложка-стекло (%1$s%%)"</string>
+    <string name="settings_dark_glass_background_1_s_66" formatted="true">"Тёмная подложка-стекло (%1$s%%)"</string>
+    <string name="settings_full_glass_1_s_67" formatted="true">"Полное стекло (%1$s%%)"</string>
+    <string name="settings_light_glass_1_s_68" formatted="true">"Светлое стекло (%1$s%%)"</string>
+    <string name="settings_dark_glass_1_s_69" formatted="true">"Тёмное стекло (%1$s%%)"</string>
+    <string name="settings_vibration_on_70" formatted="false">"Вибрация вкл."</string>
+    <string name="settings_vibration_off_71" formatted="false">"Вибрация выкл."</string>
+    <string name="settings_sound_on_72" formatted="false">"Звук вкл."</string>
+    <string name="settings_sound_off_73" formatted="false">"Звук выкл."</string>
+    <string name="settings_up_to_1_s_entries_2_s_74" formatted="true">"До %1$s записей • %2$s"</string>
+    <string name="settings_auto_save_off_75" formatted="false">"Автосохранение выкл."</string>
+    <string name="settings_voice_typing_is_ready_76" formatted="false">"Голосовой ввод готов"</string>
+    <string name="settings_voice_typing_microphone_access_required_77" formatted="false">"Голосовой ввод • нужен микрофон"</string>
+    <string name="settings_voice_typing_off_78" formatted="false">"Голосовой ввод выкл."</string>
+    <string name="settings_clipboard_encryption_and_data_deletion_79" formatted="false">"Шифрование буфера, очистка данных"</string>
+    <string name="settings_try_your_keyboard_80" formatted="false">"Песочница (тест клавиатуры)"</string>
+    <string name="settings_tap_here_to_try_layouts_t9_stickers_and_the_clip_81" formatted="false">"Нажмите сюда для проверки раскладки, T9, стикеров и буфера…"</string>
+    <string name="settings_clear_82" formatted="false">"Очистить"</string>
+    <string name="settings_russian_83" formatted="false">"Русский (ЙЦУКЕН)"</string>
+    <string name="settings_all_33_letters_including_with_a_dictionary_of_up_84" formatted="false">"Все 33 буквы + Ё, расширенный словарь до 250k слов"</string>
+    <string name="settings_standard_layout_with_a_dictionary_of_up_to_200k_85" formatted="false">"Стандартная раскладка + словарь до 200k слов"</string>
+    <string name="settings_number_row_86" formatted="false">"Цифровой ряд"</string>
+    <string name="settings_show_a_separate_number_row_above_the_letters_87" formatted="false">"Показывать отдельную строку цифр над буквами"</string>
+    <string name="settings_separate_key_88" formatted="false">"Отдельная клавиша «Ъ»"</string>
+    <string name="settings_12_keys_in_the_top_russian_row_instead_of_holdin_89" formatted="false">"12 клавиш в верхнем ряду русской раскладки вместо удержания на Х/Ь"</string>
+    <string name="settings_separate_key_90" formatted="false">"Отдельная клавиша «Ё»"</string>
+    <string name="settings_add_to_the_main_russian_layout_instead_of_holdin_91" formatted="false">"Вынести «Ё» на основной ряд русской раскладки вместо удержания на Е"</string>
+    <string name="settings_classic_t9_layout_3_4_92" formatted="false">"Классическая раскладка T9 (3×4)"</string>
+    <string name="settings_large_multi_tap_letter_groups_for_one_handed_typ_93" formatted="false">"Крупные кнопки с перебором букв (АБВГ, ДЕЖЗ…) для набора одной рукой"</string>
+    <string name="settings_quick_domains_for_browsers_and_email_94" formatted="false">"Быстрые домены для браузера и Email"</string>
+    <string name="settings_save_domains_96" formatted="false">"Сохранить домены"</string>
+    <string name="settings_quick_domains_saved_97" formatted="false">"Быстрые домены сохранены"</string>
+    <string name="settings_keys_98" formatted="false">"Клавиши"</string>
+    <string name="settings_number_row_99" formatted="false">"Ряд цифр"</string>
+    <string name="settings_always_show_numbers_1_0_above_the_letters_100" formatted="false">"Всегда показывать ряд цифр 1–0 над буквами"</string>
+    <string name="settings_number_row_in_password_fields_101" formatted="false">"Ряд цифр на клавиатуре для ввода пароля"</string>
+    <string name="settings_automatically_show_numbers_when_entering_passwor_102" formatted="false">"Автоматически показывать цифры в полях пароля"</string>
+    <string name="settings_emoji_switch_key_103" formatted="false">"Переключатель эмодзи"</string>
+    <string name="settings_show_the_emoji_key_on_the_bottom_row_hides_the_l_104" formatted="false">"Показывать клавишу эмодзи в нижнем ряду (переключатель языка будет скрыт)"</string>
+    <string name="settings_language_switch_key_105" formatted="false">"Переключатель языка"</string>
+    <string name="settings_show_the_globe_key_on_the_bottom_row_hides_the_e_106" formatted="false">"Показывать клавишу глобуса в нижнем ряду (переключатель эмодзи будет скрыт)"</string>
+    <string name="settings_comma_key_107" formatted="false">"Клавиша запятой"</string>
+    <string name="settings_show_to_the_left_of_the_spacebar_108" formatted="false">"Показывать «,» слева от пробела"</string>
+    <string name="settings_period_key_109" formatted="false">"Клавиша точки"</string>
+    <string name="settings_show_to_the_right_of_the_spacebar_110" formatted="false">"Показывать «.» справа от пробела"</string>
+    <string name="settings_appearance_111" formatted="false">"Вид"</string>
+    <string name="settings_font_size_1_s_112" formatted="true">"Размер шрифта: %1$s%%"</string>
+    <string name="settings_use_device_font_size_113" formatted="false">"Размер шрифта с устройства"</string>
+    <string name="settings_device_font_size_applied_1_s_114" formatted="true">"Применён размер шрифта устройства (%1$s%%)"</string>
+    <string name="settings_emoji_size_115" formatted="false">"Размер эмодзи"</string>
+    <string name="settings_default_116" formatted="false">"Значение по умолчанию"</string>
+    <string name="settings_layout_and_quick_actions_117" formatted="false">"Макет и быстрые команды"</string>
+    <string name="settings_suggestion_bar_118" formatted="false">"Панель подсказок"</string>
+    <string name="settings_show_the_suggestion_and_tools_bar_119" formatted="false">"Показывать верхнюю панель подсказок и инструментов"</string>
+    <string name="settings_automatic_periods_120" formatted="false">"Точки автоматически"</string>
+    <string name="settings_insert_a_period_and_space_when_you_double_tap_th_121" formatted="false">"Добавлять точку с пробелом при двойном нажатии на Пробел"</string>
+    <string name="settings_space_after_punctuation_122" formatted="false">"Добавлять пробел после знаков препинания"</string>
+    <string name="settings_automatically_insert_a_space_after_123" formatted="false">"Автоматически вставлять пробел после , . ! ? : ;"</string>
+    <string name="settings_switch_back_after_an_apostrophe_124" formatted="false">"Автоматически переключаться после апострофа"</string>
+    <string name="settings_return_to_letters_immediately_after_typing_an_ap_125" formatted="false">"Возвращаться к буквам сразу после ввода апострофа (')"</string>
+    <string name="settings_long_press_symbols_126" formatted="false">"Вводить символы долгим нажатием на клавиши"</string>
+    <string name="settings_open_extra_symbols_when_holding_a_key_127" formatted="false">"Открывать всплывающее меню доп. символов при удержании"</string>
+    <string name="settings_swipe_down_for_symbols_128" formatted="false">"Ввод символов касанием клавиш (свайп вниз)"</string>
+    <string name="settings_touch_a_key_and_drag_down_to_enter_its_extra_sym_129" formatted="false">"Нажмите на клавишу и потяните вниз для быстрого ввода доп. символа"</string>
+    <string name="settings_quick_symbol_gesture_from_123_130" formatted="false">"Жест быстрого символа через ?123"</string>
+    <string name="settings_hold_123_slide_to_a_symbol_and_release_to_return_131" formatted="false">"Зажмите ?123, проведите к нужному символу и отпустите — вернёт обратно на буквы"</string>
+    <string name="settings_swipe_to_delete_on_132" formatted="false">"Интерактивное удаление свайпом по ⌫"</string>
+    <string name="settings_swipe_left_from_backspace_to_select_1_4_words_dr_133" formatted="false">"Свайп влево от Backspace выбирает 1–4 слова; возврат вправо отменяет удаление"</string>
+    <string name="settings_change_selection_case_with_shift_134" formatted="false">"Смена регистра выделения по Shift (⇧)"</string>
+    <string name="settings_tap_with_text_selected_to_cycle_text_text_text_135" formatted="false">"Нажатие ⇧ при выделенном тексте переключает: текст → Текст → ТЕКСТ"</string>
+    <string name="settings_prevent_accidental_sends_double_enter_136" formatted="false">"Защита от случайной отправки (двойной Enter)"</string>
+    <string name="settings_in_messaging_apps_double_tap_send_when_the_text_137" formatted="false">"В мессенджерах кнопка «Отправить» срабатывает по двойному нажатию, если введено &gt;1 слова"</string>
+    <string name="settings_touch_sensitivity_138" formatted="false">"Чувствительность к касанию"</string>
+    <string name="settings_low_139" formatted="false">"Низкая"</string>
+    <string name="settings_normal_140" formatted="false">"Нормальная"</string>
+    <string name="settings_high_141" formatted="false">"Высокая"</string>
+    <string name="settings_key_presses_and_app_142" formatted="false">"Нажатие клавиши и приложение"</string>
+    <string name="settings_long_press_duration_1_s_ms_143" formatted="true">"Длительность долгого нажатия: %1$s мс"</string>
+    <string name="settings_app_icon_144" formatted="false">"Значок приложения"</string>
+    <string name="settings_show_claritykey_in_the_app_drawer_145" formatted="false">"Показывать значок ClarityKey в списке приложений"</string>
+    <string name="settings_app_icon_shown_in_the_app_drawer_146" formatted="false">"Значок приложения показан в меню"</string>
+    <string name="settings_icon_hidden_settings_are_still_available_through_147" formatted="false">"Значок скрыт (настройки доступны с клавиатуры ⚙)"</string>
+    <string name="settings_adaptive_typing_and_gestures_148" formatted="false">"Адаптивный ввод и свайпы"</string>
+    <string name="settings_smart_touch_detection_149" formatted="false">"Умное распознавание касаний"</string>
+    <string name="settings_use_touch_coordinates_and_word_context_near_key_150" formatted="false">"Учитывать координаты попадания и контекст слова на стыке клавиш"</string>
+    <string name="settings_automatic_calibration_151" formatted="false">"Автоматическая калибровка"</string>
+    <string name="settings_gradually_adapt_to_finger_offsets_without_moving_152" formatted="false">"Постепенно адаптироваться к смещению пальцев без сдвига клавиш"</string>
+    <string name="settings_swipe_typing_153" formatted="false">"Непрерывный ввод свайпом"</string>
+    <string name="settings_slide_your_finger_from_letter_to_letter_ru_en_154" formatted="false">"Набор скольжением пальца от буквы к букве (RU / EN)"</string>
+    <string name="settings_touches_learned_1_s_155" formatted="true">"Обучено касаний: %1$s"</string>
+    <string name="settings_a_short_exercise_to_fine_tune_touch_accuracy_156" formatted="false">"Короткое упражнение для точной подстройки"</string>
+    <string name="settings_dynamic_key_touch_areas_157" formatted="false">"Динамические зоны клавиш (Hitbox)"</string>
+    <string name="settings_slightly_expand_the_touch_areas_of_likely_next_l_158" formatted="false">"Незаметно расширяет зоны касания у наиболее вероятных следующих букв слова"</string>
+    <string name="settings_typing_calibration_159" formatted="false">"Калибровка ввода"</string>
+    <string name="settings_words_1_s_finger_offset_160" formatted="true">"Слов: %1$s • смещение пальцев"</string>
+    <string name="settings_suggestions_and_autocorrection_161" formatted="false">"Подсказки и автокоррекция"</string>
+    <string name="settings_word_suggestions_162" formatted="false">"Подсказки слов"</string>
+    <string name="settings_show_up_to_3_suggestions_while_typing_163" formatted="false">"Показывать до 3 вариантов на верхней панели во время набора"</string>
+    <string name="settings_next_word_prediction_164" formatted="false">"Предсказание следующего слова"</string>
+    <string name="settings_use_the_previous_word_and_familiar_phrases_165" formatted="false">"Учитывать предыдущее слово и привычные фразы"</string>
+    <string name="settings_mixed_ru_en_suggestions_166" formatted="false">"Смешанные подсказки RU + EN"</string>
+    <string name="settings_suggest_common_english_words_ok_wi_fi_telegram_p_167" formatted="false">"Подсказывать популярные англ. слова (OK, Wi-Fi, Telegram, PDF) в русской раскладке"</string>
+    <string name="settings_predictive_emoji_suggestions_168" formatted="false">"Предиктивные эмодзи в подсказках"</string>
+    <string name="settings_suggest_emoji_based_on_the_word_fire_coffee_169" formatted="false">"Показывать эмодзи по смыслу слова в верхней строке (огонь → 🔥, кофе → ☕)"</string>
+    <string name="settings_join_and_split_words_170" formatted="false">"Склейка и разделение слов"</string>
+    <string name="settings_suggest_missing_or_extra_spaces_171" formatted="false">"Исправление пропущенного или лишнего пробела (приветкак → привет как, при вет → привет)"</string>
+    <string name="settings_autocorrection_172" formatted="false">"Автокоррекция"</string>
+    <string name="settings_correct_typos_transposed_or_missing_letters_and_173" formatted="false">"Исправлять опечатки, перестановки, пропуски и букву «ё»"</string>
+    <string name="settings_correct_on_space_174" formatted="false">"Исправление по пробелу"</string>
+    <string name="settings_apply_corrections_when_pressing_space_undo_with_175" formatted="false">"Автоматически применять исправление при нажатии пробела (отмена по Backspace)"</string>
+    <string name="settings_undo_autocorrection_with_backspace_176" formatted="false">"Откат автозамены по Backspace (⌫)"</string>
+    <string name="settings_the_first_immediately_after_a_correction_restore_177" formatted="false">"Первое нажатие ⌫ сразу после автоисправления возвращает исходное слово целиком"</string>
+    <string name="settings_autocorrection_strength_178" formatted="false">"Сила автокоррекции"</string>
+    <string name="settings_gentle_179" formatted="false">"Мягкая"</string>
+    <string name="settings_standard_180" formatted="false">"Стандартная"</string>
+    <string name="settings_aggressive_181" formatted="false">"Активная"</string>
+    <string name="settings_auto_capitalization_182" formatted="false">"Автоматические заглавные буквы"</string>
+    <string name="settings_start_each_sentence_with_a_capital_letter_183" formatted="false">"Начинать каждое предложение с заглавной"</string>
+    <string name="settings_automatic_punctuation_184" formatted="false">"Автоматическая пунктуация"</string>
+    <string name="settings_double_tap_the_spacebar_to_insert_a_period_185" formatted="false">"Двойное нажатие пробела вставляет точку"</string>
+    <string name="settings_personalization_186" formatted="false">"Персонализация"</string>
+    <string name="settings_personal_learning_187" formatted="false">"Персональное обучение"</string>
+    <string name="settings_learn_frequent_words_names_and_phrases_locally_e_188" formatted="false">"Запоминать частые слова, имена и фразы локально (кроме паролей)"</string>
+    <string name="settings_calculator_in_suggestions_189" formatted="false">"Калькулятор в подсказках"</string>
+    <string name="settings_evaluate_expressions_such_as_1450_12_in_the_sugg_190" formatted="false">"Вычислять выражения вида 1450*12= прямо в верхней панели"</string>
+    <string name="settings_smart_calculator_and_time_191" formatted="false">"Умный вычислитель (% и время)"</string>
+    <string name="settings_calculate_percentages_and_time_offsets_1500_15_1_192" formatted="false">"Считает проценты и сдвиг времени в подсказках (1500+15%=, 14:30+45м)"</string>
+    <string name="settings_smart_typography_quotes_193" formatted="false">"Автотипографика («ёлочки», —, …)"</string>
+    <string name="settings_replace_with_with_with_and_c_with_194" formatted="false">"Заменяет \"...\" на «...», -- на —, ... на …, (c) на ©"</string>
+    <string name="settings_detect_the_intended_layout_ru_en_195" formatted="false">"Автораспознавание раскладки (RU⇄EN)"</string>
+    <string name="settings_suggest_when_you_type_ghbdtn_on_the_english_layo_196" formatted="false">"Предлагать «привет» при наборе «ghbdtn» в английской раскладке"</string>
+    <string name="settings_autofill_and_personal_memory_197" formatted="false">"Автозаполнение и эффект памяти"</string>
+    <string name="settings_phrases_autofill_profile_gestures_and_password_p_198" formatted="false">"Фразы, профиль автозаполнения, жесты и щит паролей"</string>
+    <string name="settings_shortcuts_1_s_e_g_email_199" formatted="true">"Сокращений: %1$s (напр. @@ → email)"</string>
+    <string name="settings_saved_words_1_s_200" formatted="true">"Сохранено слов: %1$s"</string>
+    <string name="settings_reset_personal_typing_data_201" formatted="false">"Сбросить персональные данные ввода"</string>
+    <string name="settings_reset_learned_data_202" formatted="false">"Сбросить данные обучения?"</string>
+    <string name="settings_this_clears_personal_words_word_frequencies_and_203" formatted="false">"Будут очищены персональные слова, частоты и модель калибровки касаний."</string>
+    <string name="settings_reset_204" formatted="false">"Сбросить"</string>
+    <string name="settings_personal_typing_data_reset_205" formatted="false">"Персональные данные ввода сброшены"</string>
+    <string name="settings_local_typing_statistics_206" formatted="false">"Локальная статистика набора"</string>
+    <string name="settings_track_typing_speed_deletion_rate_and_touch_offse_207" formatted="false">"Считать скорость (зн/мин), точность и тепловую карту касаний на устройстве"</string>
+    <string name="settings_speed_and_accuracy_208" formatted="false">"Показатели скорости и точности"</string>
+    <string name="settings_typing_speed_209" formatted="false">"Скорость набора"</string>
+    <string name="settings_1_s_chars_min_2_s_words_min_210" formatted="true">"%1$s зн/мин  •  ~%2$s слов/мин"</string>
+    <string name="settings_typing_without_backspace_211" formatted="false">"Точность без Backspace"</string>
+    <string name="settings_1_s_characters_typed_2_s_words_3_s_212" formatted="true">"%1$s%%  (введено знаков: %2$s, слов: %3$s)"</string>
+    <string name="settings_average_touch_offset_1_s_2_s_213" formatted="true">"Среднее смещение касаний (%1$s_%2$s)"</string>
+    <string name="settings_touches_learned_1_s_average_offset_x_2_s_y_3_s_214" formatted="true">"Обучено касаний: %1$s • Среднее смещение: ΔX=%2$s, ΔY=%3$s"</string>
+    <string name="settings_type_or_complete_calibration_to_see_your_average_215" formatted="false">"Набирайте текст или пройдите калибровку, чтобы увидеть тепловую карту смещения."</string>
+    <string name="settings_reset_statistics_216" formatted="false">"Сбросить статистику"</string>
+    <string name="settings_typing_statistics_cleared_217" formatted="false">"Статистика набора очищена"</string>
+    <string name="settings_current_touch_model_1_s_218" formatted="true">"Текущая модель касаний (%1$s)"</string>
+    <string name="settings_touches_recorded_1_s_nx_offset_2_s_of_key_width_219" formatted="true">"Собрано касаний: %1$s\nСмещение X: %2$s%% ширины клавиши • Смещение Y: %3$s%% высоты"</string>
+    <string name="settings_tap_the_highlighted_key_naturally_1_s_1_2_s_228" formatted="true">"Нажмите естественно на подсвеченную клавишу: «%1$s» (1/%2$s)"</string>
+    <string name="settings_tap_the_key_naturally_1_s_2_s_3_s_229" formatted="true">"Нажмите естественно на клавишу: «%1$s» (%2$s/%3$s)"</string>
+    <string name="settings_calibration_complete_offset_x_1_s_y_2_s_touches_230" formatted="true">"Калибровка завершена! Смещение: X %1$s%%, Y %2$s%% (касаний: %3$s)"</string>
+    <string name="settings_start_again_231" formatted="false">"Пройти заново"</string>
+    <string name="settings_reset_calibration_232" formatted="false">"Сбросить калибровку"</string>
+    <string name="settings_calibration_reset_233" formatted="false">"Калибровка сброшена"</string>
+    <string name="settings_system_dark_234" formatted="false">"Системная (Тёмная)"</string>
+    <string name="settings_system_light_235" formatted="false">"Системная (Светлая)"</string>
+    <string name="settings_background_236" formatted="false">"Подложка"</string>
+    <string name="settings_classic_237" formatted="false">"Классика"</string>
+    <string name="settings_floating_238" formatted="false">"Плавающая"</string>
+    <string name="settings_one_handed_left_239" formatted="false">"1 рука (лево)"</string>
+    <string name="settings_one_handed_right_240" formatted="false">"1 рука (право)"</string>
+    <string name="settings_height_1_s_241" formatted="true">"Высота %1$s%%"</string>
+    <string name="settings_keyboard_preview_242" formatted="false">"Предпросмотр клавиатуры"</string>
+    <string name="settings_russian_248" formatted="false">"Русский"</string>
+    <string name="settings_follow_system_1_s_249" formatted="true">"Авто с системы (%1$s)"</string>
+    <string name="settings_selected_dimming_1_s_250" formatted="true">"Установлены • затемнение %1$s%%"</string>
+    <string name="settings_not_selected_251" formatted="false">"Не выбраны"</string>
+    <string name="settings_floating_keyboard_height_1_s_252" formatted="true">"Плавающая клавиатура • высота %1$s%%"</string>
+    <string name="settings_one_handed_height_1_s_253" formatted="true">"Одной рукой • высота %1$s%%"</string>
+    <string name="settings_height_1_s_bottom_padding_2_s_254" formatted="true">"Высота %1$s%% • отступ %2$s"</string>
+    <string name="settings_custom_key_colors_255" formatted="false">"Настроены свои цвета клавиш"</string>
+    <string name="settings_follow_theme_presets_and_rgb_for_letters_shift_256" formatted="false">"По теме (шаблоны и RGB для букв, Shift, ⌫, 🌐)"</string>
+    <string name="settings_font_1_s_2_s_emoji_per_row_257" formatted="true">"Шрифт %1$s%% • Эмодзи %2$s в ряд • "</string>
+    <string name="settings_numbers_on_258" formatted="false">"Цифры вкл."</string>
+    <string name="settings_numbers_auto_259" formatted="false">"Цифры авто"</string>
+    <string name="settings_size_one_handed_and_floating_modes_260" formatted="false">"Размеры, 1 рука и плавающий режим"</string>
+    <string name="settings_light_and_dark_theme_261" formatted="false">"Светлая и тёмная тема"</string>
+    <string name="settings_follow_system_theme_auto_262" formatted="false">"Брать тему с системы (Авто)"</string>
+    <string name="settings_current_system_theme_1_s_263" formatted="true">"Сейчас в системе: %1$s"</string>
+    <string name="settings_surface_style_264" formatted="false">"Стиль поверхности"</string>
+    <string name="settings_liquid_glass_settings_265" formatted="false">"Настройки стекла Liquid Glass"</string>
+    <string name="settings_opacity_1_s_266" formatted="true">"Прозрачность: %1$s%%"</string>
+    <string name="settings_blur_1_s_px_267" formatted="true">"Размытие (Blur): %1$s px"</string>
+    <string name="settings_use_wallpaper_colors_for_enter_and_suggestions_o_268" formatted="false">"Акцентный цвет Enter и подсказок из обоев Android 12+"</string>
+    <string name="settings_scheduled_night_theme_22_00_07_00_269" formatted="false">"Ночная тема по расписанию (22:00–07:00)"</string>
+    <string name="settings_automatically_switch_to_a_dark_theme_at_night_270" formatted="false">"Автоматически переключаться на тёмную тему ночью"</string>
+    <string name="settings_share_a_theme_with_a_code_271" formatted="false">"Шеринг темы одной строкой (Theme Code)"</string>
+    <string name="settings_paste_a_ck1_code_to_apply_a_theme_272" formatted="false">"Вставьте код вида CK1:… чтобы применить тему"</string>
+    <string name="settings_copy_code_273" formatted="false">"Скопировать код"</string>
+    <string name="settings_theme_code_copied_to_clipboard_274" formatted="false">"Код темы скопирован в буфер"</string>
+    <string name="settings_apply_275" formatted="false">"Применить"</string>
+    <string name="settings_theme_applied_276" formatted="false">"Тема успешно применена"</string>
+    <string name="settings_invalid_theme_code_277" formatted="false">"Неверный код темы"</string>
+    <string name="settings_letters_278" formatted="false">"Буквы"</string>
+    <string name="settings_press_279" formatted="false">"Тап"</string>
+    <string name="settings_choose_a_key_group_280" formatted="false">"Выберите группу клавиш"</string>
+    <string name="settings_follow_theme_281" formatted="false">"По теме"</string>
+    <string name="settings_milk_282" formatted="false">"Молочный"</string>
+    <string name="settings_graphite_283" formatted="false">"Графит"</string>
+    <string name="settings_slate_284" formatted="false">"Сланец"</string>
+    <string name="settings_ocean_285" formatted="false">"Океан"</string>
+    <string name="settings_sage_286" formatted="false">"Шалфей"</string>
+    <string name="settings_olive_287" formatted="false">"Олива"</string>
+    <string name="settings_terracotta_288" formatted="false">"Терракота"</string>
+    <string name="settings_burgundy_289" formatted="false">"Бордо"</string>
+    <string name="settings_lavender_290" formatted="false">"Лаванда"</string>
+    <string name="settings_sand_291" formatted="false">"Песок"</string>
+    <string name="settings_soft_color_presets_292" formatted="false">"Готовые спокойные оттенки"</string>
+    <string name="settings_fine_tune_rgb_1_s_293" formatted="true">"Тонкая настройка RGB (%1$s)"</string>
+    <string name="settings_red_r_294" formatted="false">"Красный (R)"</string>
+    <string name="settings_green_g_295" formatted="false">"Зелёный (G)"</string>
+    <string name="settings_blue_b_296" formatted="false">"Синий (B)"</string>
+    <string name="settings_reset_all_colors_to_theme_297" formatted="false">"Сбросить все цвета к теме"</string>
+    <string name="settings_key_colors_reset_to_theme_298" formatted="false">"Цвета клавиш сброшены к теме"</string>
+    <string name="settings_background_and_dimming_299" formatted="false">"Фон и затемнение"</string>
+    <string name="settings_choose_photo_300" formatted="false">"Выбрать фото"</string>
+    <string name="settings_keyboard_wallpaper_reset_301" formatted="false">"Обои клавиатуры сброшены"</string>
+    <string name="settings_wallpaper_dimming_1_s_302" formatted="true">"Затемнение обоев: %1$s%%"</string>
+    <string name="settings_automatic_wallpaper_contrast_303" formatted="false">"Автоконтраст клавиш под обои"</string>
+    <string name="settings_adjust_text_contrast_for_light_and_dark_photos_304" formatted="false">"Автоматически подбирать контраст шрифта для светлых и тёмных фото"</string>
+    <string name="settings_size_and_typing_modes_305" formatted="false">"Размер и режимы ввода"</string>
+    <string name="settings_portrait_height_1_s_306" formatted="true">"Высота в портретном режиме: %1$s%%"</string>
+    <string name="settings_landscape_height_1_s_307" formatted="true">"Высота в альбомном режиме: %1$s%%"</string>
+    <string name="settings_one_handed_mode_308" formatted="false">"Режим одной рукой"</string>
+    <string name="settings_off_309" formatted="false">"Выкл"</string>
+    <string name="settings_left_310" formatted="false">"Слева"</string>
+    <string name="settings_right_311" formatted="false">"Справа"</string>
+    <string name="settings_floating_keyboard_312" formatted="false">"Плавающая клавиатура"</string>
+    <string name="settings_drag_the_bottom_handle_to_move_the_keyboard_over_313" formatted="false">"Свободное перемещение пальцем за нижнюю ручку «≡ Перетащите» поверх приложений"</string>
+    <string name="settings_reset_position_to_center_314" formatted="false">"Сбросить позицию по центру"</string>
+    <string name="settings_floating_keyboard_position_reset_315" formatted="false">"Позиция плавающей клавиатуры сброшена"</string>
+    <string name="settings_bottom_padding_and_keys_316" formatted="false">"Нижний отступ и клавиши"</string>
+    <string name="settings_auto_317" formatted="false">"Авто"</string>
+    <string name="settings_compact_318" formatted="false">"Компакт"</string>
+    <string name="settings_standard_319" formatted="false">"Стандарт"</string>
+    <string name="settings_large_320" formatted="false">"Большой"</string>
+    <string name="settings_key_popup_321" formatted="false">"Всплывающая подсказка клавиши"</string>
+    <string name="settings_show_an_enlarged_character_preview_when_pressing_322" formatted="false">"Увеличенное превью символа при нажатии"</string>
+    <string name="settings_key_shadows_323" formatted="false">"Тени под клавишами"</string>
+    <string name="settings_soft_depth_below_keys_in_classic_and_glass_theme_324" formatted="false">"Мягкий объём и глубина под кнопками (влияет на классические и стеклянные темы)"</string>
+    <string name="settings_colored_key_press_highlight_325" formatted="false">"Цветная подсветка нажатия клавиши"</string>
+    <string name="settings_highlight_the_pressed_key_outline_with_the_selec_326" formatted="false">"Подсвечивать контур нажатой клавиши выбранным цветом"</string>
+    <string name="settings_choose_highlight_color_327" formatted="false">"Настроить цвет подсветки →"</string>
+    <string name="settings_key_corner_radius_1_s_dp_328" formatted="true">"Скругление клавиш: %1$s dp"</string>
+    <string name="settings_landscape_layout_329" formatted="false">"Альбомный режим (горизонтальный экран)"</string>
+    <string name="settings_compact_330" formatted="false">"Компактный"</string>
+    <string name="settings_split_331" formatted="false">"Разделённый"</string>
+    <string name="settings_full_332" formatted="false">"Обычный"</string>
+    <string name="settings_arrow_row_333" formatted="false">"Полоса стрелок (⇤ ← ↑ ↓ → ⇥)"</string>
+    <string name="settings_a_slim_navigation_row_for_text_spreadsheets_and_334" formatted="false">"Тонкая строка навигации над клавишами для текста, таблиц и Termux"</string>
+    <string name="settings_toolbar_button_preset_335" formatted="false">"Набор кнопок верхней панели"</string>
+    <string name="settings_menu_translate_like_gboard_336" formatted="false">"Меню + Перевод (как Gboard)"</string>
+    <string name="settings_menu_emoji_337" formatted="false">"Меню + Эмодзи"</string>
+    <string name="settings_menu_one_handed_incognito_338" formatted="false">"Меню + 1 рука + Инкогнито"</string>
+    <string name="settings_customize_slots_tap_a_slot_339" formatted="false">"Конструктор по слотам (нажмите на слот)"</string>
+    <string name="settings_menu_2_3_340" formatted="false">"⊞ Меню (2×3)"</string>
+    <string name="settings_clipboard_341" formatted="false">"📋 Буфер обмена"</string>
+    <string name="settings_a_translate_342" formatted="false">"文/A Перевод"</string>
+    <string name="settings_emoji_and_stickers_343" formatted="false">"☺ Эмодзи и стикеры"</string>
+    <string name="settings_settings_344" formatted="false">"⚙ Настройки"</string>
+    <string name="settings_voice_typing_345" formatted="false">"🎤 Голосовой ввод"</string>
+    <string name="settings_incognito_346" formatted="false">"🕶 Инкогнито"</string>
+    <string name="settings_one_handed_347" formatted="false">"◧ Одной рукой"</string>
+    <string name="settings_text_editor_348" formatted="false">"✎ Редактор текста"</string>
+    <string name="settings_slot_1_s_349" formatted="true">"Слот %1$s"</string>
+    <string name="settings_change_350" formatted="false">"Сменить ↻"</string>
+    <string name="settings_haptic_feedback_351" formatted="false">"Тактильная отдача"</string>
+    <string name="settings_brief_vibration_when_pressing_keys_352" formatted="false">"Короткий виброотклик при нажатии клавиш"</string>
+    <string name="settings_different_haptics_by_key_type_353" formatted="false">"Раздельный тактильный отклик"</string>
+    <string name="settings_a_soft_click_for_letters_firmer_for_shift_and_st_354" formatted="false">"Мягкий короткий клик для букв, плотнее для Shift/⌫ и выраженный для Enter"</string>
+    <string name="settings_vibration_duration_1_s_ms_355" formatted="true">"Длительность вибрации: %1$s мс"</string>
+    <string name="settings_keypress_sound_356" formatted="false">"Звук нажатия клавиш"</string>
+    <string name="settings_play_claritykey_key_sounds_ogg_while_typing_357" formatted="false">"Фирменные звуки ClarityKey (.ogg) при наборе"</string>
+    <string name="settings_sound_profile_358" formatted="false">"Профиль звучания"</string>
+    <string name="settings_quiet_359" formatted="false">"Тихий"</string>
+    <string name="settings_mechanical_360" formatted="false">"Механика"</string>
+    <string name="settings_keypress_volume_1_s_361" formatted="true">"Громкость клавиш: %1$s%%"</string>
+    <string name="settings_1_hour_362" formatted="false">"1 час"</string>
+    <string name="settings_24_hours_363" formatted="false">"24 часа"</string>
+    <string name="settings_7_days_364" formatted="false">"7 дней"</string>
+    <string name="settings_30_days_365" formatted="false">"30 дней"</string>
+    <string name="settings_forever_366" formatted="false">"Бессрочно"</string>
+    <string name="settings_auto_save_367" formatted="false">"Автоматическое сохранение"</string>
+    <string name="settings_save_copied_text_to_local_history_368" formatted="false">"Сохранять скопированные тексты в локальную историю"</string>
+    <string name="settings_smart_clipboard_replies_369" formatted="false">"Умный быстрый ответ по буферу"</string>
+    <string name="settings_suggest_a_reply_or_your_saved_email_phone_number_370" formatted="false">"Предлагает шаблон ответа или ваш Email/телефон из автозаполнения по скопированному вопросу"</string>
+    <string name="settings_sms_and_push_verification_codes_otp_371" formatted="false">"Автовставка кодов из SMS и Push (OTP)"</string>
+    <string name="settings_active_codes_stay_in_ram_for_90_sec_and_are_remo_372" formatted="false">"Активно: коды живут только в RAM 90 сек и удаляются сразу после вставки"</string>
+    <string name="settings_requires_notification_access_no_read_sms_permiss_373" formatted="false">"Требуется системный доступ к уведомлениям (без READ_SMS и без записи на диск)"</string>
+    <string name="settings_open_settings_notification_access_claritykey_374" formatted="false">"Откройте Настройки → Доступ к уведомлениям → ClarityKey"</string>
+    <string name="settings_open_notification_access_375" formatted="false">"Открыть доступ к уведомлениям"</string>
+    <string name="settings_quick_paste_on_the_toolbar_376" formatted="false">"Быстрая вставка на верхней панели"</string>
+    <string name="settings_show_a_chip_for_the_most_recently_copied_text_377" formatted="false">"Показывать чип последнего скопированного текста"</string>
+    <string name="settings_confirm_bulk_deletion_378" formatted="false">"Подтверждать массовое удаление"</string>
+    <string name="settings_ask_before_clearing_recent_entries_379" formatted="false">"Запрашивать подтверждение перед очисткой недавних"</string>
+    <string name="settings_keep_unpinned_entries_for_380" formatted="false">"Срок хранения незакреплённых записей"</string>
+    <string name="settings_30_days_default_381" formatted="false">"30 дней (по умолчанию)"</string>
+    <string name="settings_unpinned_entry_limit_382" formatted="false">"Лимит незакреплённых записей"</string>
+    <string name="settings_1_s_entries_default_383" formatted="true">"%1$s записей (по умолчанию)"</string>
+    <string name="settings_1_s_entries_384" formatted="true">"%1$s записей"</string>
+    <string name="settings_clipboard_cards_385" formatted="false">"Отображение карточек"</string>
+    <string name="settings_show_source_app_386" formatted="false">"Показывать приложение-источник"</string>
+    <string name="settings_show_its_icon_and_name_when_source_information_i_387" formatted="false">"Иконка и название, если система передала достоверный источник"</string>
+    <string name="settings_show_copy_time_388" formatted="false">"Показывать время копирования"</string>
+    <string name="settings_a_compact_timestamp_at_the_bottom_right_of_each_389" formatted="false">"Компактная метка времени в правом нижнем углу карточки"</string>
+    <string name="settings_view_full_text_on_long_press_390" formatted="false">"Просмотр полного текста по удержанию"</string>
+    <string name="settings_add_full_text_to_the_context_menu_for_long_entri_391" formatted="false">"Кнопка «Полный текст» в контекстном меню длинной записи"</string>
+    <string name="settings_preview_lines_392" formatted="false">"Строк предпросмотра"</string>
+    <string name="settings_images_and_screenshots_393" formatted="false">"Изображения и скриншоты"</string>
+    <string name="settings_save_copied_images_394" formatted="false">"Сохранять скопированные изображения"</string>
+    <string name="settings_automatically_save_images_png_jpg_webp_gif_from_395" formatted="false">"Автоматически сохранять картинки (PNG, JPG, WebP, GIF) из системного буфера"</string>
+    <string name="settings_show_image_suggestions_396" formatted="false">"Показывать предложения изображений"</string>
+    <string name="settings_show_a_small_thumbnail_for_copied_images_on_the_397" formatted="false">"Компактная миниатюра на верхней панели для скопированных картинок"</string>
+    <string name="settings_suggest_recent_screenshots_398" formatted="false">"Предлагать недавние скриншоты"</string>
+    <string name="settings_automatically_add_a_new_screenshot_to_the_clipbo_399" formatted="false">"Автоматически добавлять новый скриншот в буфер и показывать миниатюру"</string>
+    <string name="settings_requires_photo_access_or_you_can_use_photo_picke_400" formatted="false">"Требуется отдельное разрешение на доступ к изображениям (или используйте Photo Picker)"</string>
+    <string name="settings_recent_screenshot_access_401" formatted="false">"Доступ к недавним скриншотам"</string>
+    <string name="settings_the_keyboard_checks_only_the_latest_screenshot_f_402" formatted="false">"Клавиатура проверяет только один последний скриншот за последние 2 минуты через MediaStore. Данные не покидают устройство. Вы также можете добавлять фото вручную через системный Photo Picker без этого разрешения."</string>
+    <string name="settings_allow_403" formatted="false">"Разрешить"</string>
+    <string name="settings_automatic_cleanup_404" formatted="false">"Автоматическая очистка"</string>
+    <string name="settings_delete_old_unpinned_images_when_limits_are_excee_405" formatted="false">"Удалять старые незакреплённые изображения при превышении лимитов"</string>
+    <string name="settings_keep_images_for_406" formatted="false">"Хранить изображения"</string>
+    <string name="settings_1_day_407" formatted="false">"1 д."</string>
+    <string name="settings_7_days_408" formatted="false">"7 д."</string>
+    <string name="settings_30_days_409" formatted="false">"30 д."</string>
+    <string name="settings_maximum_images_410" formatted="false">"Максимум изображений"</string>
+    <string name="settings_storage_limit_411" formatted="false">"Лимит памяти"</string>
+    <string name="settings_25_mb_412" formatted="false">"25 МБ"</string>
+    <string name="settings_50_mb_413" formatted="false">"50 МБ"</string>
+    <string name="settings_100_mb_414" formatted="false">"100 МБ"</string>
+    <string name="settings_calculating_image_storage_415" formatted="false">"Подсчёт объёма изображений…"</string>
+    <string name="settings_nnote_pinned_images_use_substantial_storage_and_416" formatted="false">"\nВнимание: закреплённые фото занимают много места и не очищаются автоматически."</string>
+    <string name="settings_unpinned_d_1f_mb_pinned_d_1f_mb_s_417" formatted="true">"Незакреплённые: %1$d шт. (%2$.1f МБ) • Закреплённые: %3$d шт. (%4$.1f МБ)%5$s"</string>
+    <string name="settings_choose_image_photo_picker_418" formatted="false">"Выбрать фото (Photo Picker)"</string>
+    <string name="settings_smart_paste_419" formatted="false">"Умная вставка"</string>
+    <string name="settings_smart_detection_420" formatted="false">"Умное распознавание"</string>
+    <string name="settings_find_links_phone_numbers_emails_dates_and_orders_421" formatted="false">"Локальный поиск ссылок, телефонов, email, дат и заказов внутри текста"</string>
+    <string name="settings_suggest_individual_fragments_422" formatted="false">"Предлагать отдельные фрагменты"</string>
+    <string name="settings_show_a_compact_detected_content_indicator_on_cli_423" formatted="false">"Компактный индикатор распознанных объектов на карточке буфера"</string>
+    <string name="settings_quick_suggestions_424" formatted="false">"Быстрые предложения"</string>
+    <string name="settings_show_paste_link_phone_email_or_smart_paste_on_th_425" formatted="false">"Кнопка «Вставить ссылку/телефон/email» или «Умная вставка» сверху"</string>
+    <string name="settings_detect_links_426" formatted="false">"Распознавать ссылки"</string>
+    <string name="settings_http_https_and_www_addresses_keeping_their_param_427" formatted="false">"Веб-адреса http/https и www с сохранением параметров"</string>
+    <string name="settings_detect_phone_numbers_428" formatted="false">"Распознавать телефоны"</string>
+    <string name="settings_international_and_russian_phone_numbers_filterin_429" formatted="false">"Международные и российские номера без ложных срабатываний на числа"</string>
+    <string name="settings_detect_email_addresses_430" formatted="false">"Распознавать email"</string>
+    <string name="settings_email_addresses_within_messages_431" formatted="false">"Адреса электронной почты внутри сообщений"</string>
+    <string name="settings_dates_and_times_432" formatted="false">"Даты и время"</string>
+    <string name="settings_25_11_2026_25_2026_11_25_14_30_18_45_433" formatted="false">"25.11.2026, 25 ноября, 2026-11-25, 14:30, 18:45"</string>
+    <string name="settings_addresses_and_coordinates_434" formatted="false">"Адреса и координаты"</string>
+    <string name="settings_city_street_building_apartment_and_gps_coordinat_435" formatted="false">"Город, улица, дом, квартира и GPS-координаты"</string>
+    <string name="settings_amounts_and_bank_details_436" formatted="false">"Суммы и реквизиты"</string>
+    <string name="settings_amounts_iban_mod_97_russian_tax_ids_checksum_ban_437" formatted="false">"Денежные суммы, IBAN (Mod-97), ИНН (с проверкой), БИК, р/с"</string>
+    <string name="settings_orders_and_shipments_438" formatted="false">"Заказы и отправления"</string>
+    <string name="settings_order_references_parcel_tracking_numbers_and_fli_439" formatted="false">"Номера заказов, трек-номера посылок и номера рейсов"</string>
+    <string name="settings_promo_codes_and_product_ids_440" formatted="false">"Промокоды и артикулы"</string>
+    <string name="settings_promo_codes_coupons_product_ids_and_license_plat_441" formatted="false">"Промокоды, купоны, артикулы товаров и госномера авто"</string>
+    <string name="settings_names_and_organizations_442" formatted="false">"Имена и организации"</string>
+    <string name="settings_russian_full_names_patronymic_label_checks_and_c_443" formatted="false">"ФИО (с проверкой отчества/метки) и названия компаний (ООО, АО, ИП)"</string>
+    <string name="settings_hide_sensitive_data_444" formatted="false">"Скрывать конфиденциальные данные"</string>
+    <string name="settings_hide_verification_codes_and_card_numbers_from_qu_445" formatted="false">"Не показывать в быстрых предложениях коды подтверждения и номера карт"</string>
+    <string name="settings_text_recognition_in_images_446" formatted="false">"Распознавание текста на изображениях"</string>
+    <string name="settings_local_tesseract_ru_en_ocr_with_extract_text_with_447" formatted="false">"Локальный OCR (Tesseract RU+EN) по кнопке «Извлечь текст» без облака"</string>
+    <string name="settings_automatically_recognize_new_images_448" formatted="false">"Автоматическое распознавание новых изображений"</string>
+    <string name="settings_run_ocr_in_the_background_after_copying_an_image_449" formatted="false">"Запускать OCR в фоне сразу после копирования картинки (выкл. по умолчанию)"</string>
+    <string name="settings_recognize_russian_and_english_450" formatted="false">"Распознавать русский и английский"</string>
+    <string name="settings_use_mixed_ru_en_recognition_otherwise_russian_on_451" formatted="false">"Смешанный режим RU + EN (иначе только русский)"</string>
+    <string name="settings_extract_links_phone_numbers_addresses_amounts_an_452" formatted="false">"Выделять ссылки, телефоны, адреса, суммы и заказы из распознанного текста"</string>
+    <string name="settings_save_ocr_results_453" formatted="false">"Сохранять результаты OCR"</string>
+    <string name="settings_cache_recognized_text_locally_excluding_detected_454" formatted="false">"Кэшировать распознанный текст локально (кроме конфиденциальных данных)"</string>
+    <string name="settings_saved_templates_1_s_work_delivery_personal_455" formatted="true">"Сохранено шаблонов: %1$s (Работа / Доставка / Личное)"</string>
+    <string name="settings_secure_vault_biometrics_456" formatted="false">"🔒 Защищённый сейф (Биометрия)"</string>
+    <string name="settings_entries_1_s_aes_256_gcm_encryption_457" formatted="true">"Записей: %1$s • шифрование AES-256-GCM"</string>
+    <string name="settings_work_458" formatted="false">"Работа"</string>
+    <string name="settings_delivery_459" formatted="false">"Доставка"</string>
+    <string name="settings_personal_460" formatted="false">"Личное"</string>
+    <string name="settings_new_template_461" formatted="false">"Новый шаблон"</string>
+    <string name="settings_tip_marks_the_cursor_position_and_insert_the_dat_462" formatted="false">"Подсказка: «|» ставит курсор в нужное место, а {дата}, {завтра}, {время}, {день} подставляются автоматически."</string>
+    <string name="settings_template_text_e_g_i_ll_be_there_in_15_minutes_463" formatted="false">"Текст шаблона (напр. «Буду через 15 минут»)"</string>
+    <string name="settings_add_to_1_s_464" formatted="true">"Добавить в «%1$s»"</string>
+    <string name="settings_template_added_to_1_s_465" formatted="true">"Шаблон добавлен в «%1$s»"</string>
+    <string name="settings_enter_template_text_466" formatted="false">"Введите текст шаблона"</string>
+    <string name="settings_saved_templates_tap_to_edit_467" formatted="false">"Сохранённые шаблоны (нажмите для редактирования)"</string>
+    <string name="settings_no_templates_yet_468" formatted="false">"Список шаблонов пуст."</string>
+    <string name="settings_edit_template_1_s_469" formatted="true">"Изменить шаблон (%1$s)"</string>
+    <string name="settings_save_470" formatted="false">"Сохранить"</string>
+    <string name="settings_delete_471" formatted="false">"Удалить"</string>
+    <string name="settings_hidden_suggestion_words_1_s_472" formatted="true">"Скрытые слова из подсказок (%1$s)"</string>
+    <string name="settings_nothing_here_yet_473" formatted="false">"Список пуст"</string>
+    <string name="settings_long_press_a_suggested_word_to_hide_it_permanent_474" formatted="false">"Долгое нажатие на слово в панели подсказок скрывает его навсегда."</string>
+    <string name="settings_restore_475" formatted="false">"Вернуть"</string>
+    <string name="settings_secure_vault_aes_256_gcm_476" formatted="false">"🔒 Защищённый сейф (AES-256-GCM)"</string>
+    <string name="settings_vault_entries_1_s_biometric_verification_is_requ_477" formatted="true">"Записей в сейфе: %1$s. Для просмотра и добавления требуется подтверждение биометрией."</string>
+    <string name="settings_unlock_with_biometrics_478" formatted="false">"Разблокировать по биометрии"</string>
+    <string name="settings_add_a_vault_entry_tax_id_bank_details_code_479" formatted="false">"Добавить запись в сейф (ИНН, реквизиты, код…)"</string>
+    <string name="settings_save_to_vault_480" formatted="false">"Сохранить в сейф"</string>
+    <string name="settings_entry_encrypted_and_saved_to_the_vault_481" formatted="false">"Запись зашифрована и сохранена в сейф"</string>
+    <string name="settings_could_not_save_the_entry_check_the_device_keysto_482" formatted="false">"Не удалось сохранить запись. Проверьте хранилище ключей"</string>
+    <string name="settings_lock_vault_483" formatted="false">"Заблокировать сейф"</string>
+    <string name="settings_voice_typing_484" formatted="false">"Голосовой ввод"</string>
+    <string name="settings_show_the_microphone_button_on_the_keyboard_toolb_485" formatted="false">"Показывать кнопку микрофона на верхней панели клавиатуры"</string>
+    <string name="settings_smart_dictation_with_local_text_processing_486" formatted="false">"Умная диктовка с локальной обработкой текста"</string>
+    <string name="settings_remove_russian_filler_words_repetitions_and_self_487" formatted="false">"Убирает слова-паразиты (ну, типа, короче), повторы и оговорки («в 5, нет, в 6»), расставляет запятые и собирает списки"</string>
+    <string name="settings_default_processing_style_488" formatted="false">"Стиль обработки по умолчанию"</string>
+    <string name="settings_concise_489" formatted="false">"Кратко"</string>
+    <string name="settings_list_490" formatted="false">"Список"</string>
+    <string name="settings_microphone_access_granted_491" formatted="false">"Микрофон разрешён"</string>
+    <string name="settings_microphone_permission_required_492" formatted="false">"Нужно разрешение на микрофон"</string>
+    <string name="settings_uses_the_android_speech_recognition_service_ru_r_493" formatted="false">"Используется системный сервис распознавания речи Android (ru-RU / en-US). В полях паролей голосовой ввод автоматически скрывается."</string>
+    <string name="settings_allow_microphone_494" formatted="false">"Разрешить микрофон"</string>
+    <string name="settings_pinned_toolbar_chips_separated_by_495" formatted="false">"Закреплённые чипы на верхней панели (через |)"</string>
+    <string name="settings_e_g_7_999_000_00_00_https_t_me_myname_496" formatted="false">"Напр.: +7 999 000-00-00 | https://t.me/myname"</string>
+    <string name="settings_save_chips_497" formatted="false">"Сохранить чипы"</string>
+    <string name="settings_pinned_chips_saved_498" formatted="false">"Закреплённые чипы сохранены"</string>
+    <string name="settings_app_499" formatted="false">"Приложение"</string>
+    <string name="settings_automatic_app_profiles_500" formatted="false">"Автопрофили под приложения"</string>
+    <string name="settings_enable_the_number_row_and_disable_autocorrection_501" formatted="false">"В Termux автоматически включает цифровой ряд и отключает автокоррекцию"</string>
+    <string name="settings_show_app_icon_502" formatted="false">"Значок приложения в списке приложений"</string>
+    <string name="settings_show_or_hide_claritykey_in_the_launcher_settings_503" formatted="false">"Скрыть или показать иконку ClarityKey в лаунчере (настройки всегда доступны с клавиатуры ⚙)"</string>
+    <string name="settings_icon_hidden_open_settings_through_on_the_keyboar_504" formatted="false">"Значок скрыт (открывайте настройки через ⚙ на клавиатуре)"</string>
+    <string name="settings_security_status_live_checks_505" formatted="false">"Статус безопасности (проверка в реальном времени)"</string>
+    <string name="settings_internet_permission_not_declared_speech_recognit_506" formatted="false">"Доступ в интернет: отсутствует в манифесте (распознавание речи зависит от системного сервиса)"</string>
+    <string name="settings_encryption_android_keystore_aes_256_gcm_1_s_507" formatted="true">"Шифрование: Android Keystore AES-256-GCM %1$s"</string>
+    <string name="settings_active_508" formatted="false">"активно"</string>
+    <string name="settings_unavailable_new_encrypted_saves_are_blocked_509" formatted="false">"недоступно — новые зашифрованные записи заблокированы"</string>
+    <string name="settings_cloud_backup_disabled_allowbackup_false_app_data_510" formatted="false">"Облачный бэкап (allowBackup=false): утечка баз и ключей заблокирована"</string>
+    <string name="settings_logging_logcat_no_typed_text_logged_511" formatted="false">"Журналирование (Logcat): 0 записей вводимого текста"</string>
+    <string name="settings_overlay_tapjacking_and_screenshot_protection_fla_512" formatted="false">"Защита от наложений (Tapjacking) и скриншотов (FLAG_SECURE)"</string>
+    <string name="settings_input_protection_513" formatted="false">"Активная защита ввода"</string>
+    <string name="settings_manual_incognito_mode_514" formatted="false">"Ручной режим инкогнито"</string>
+    <string name="settings_temporarily_pause_clipboard_capture_dictionary_l_515" formatted="false">"Временно остановить запись буфера, обучение словаря и калибровку"</string>
+    <string name="settings_auto_incognito_in_banking_and_password_apps_516" formatted="false">"Авто-инкогнито в банках и менеджерах паролей"</string>
+    <string name="settings_disable_learning_and_phrase_collection_in_suppor_517" formatted="false">"Автоматически отключать обучение и сбор фраз в Сбере, Т-Банке, ВТБ, Альфе, Госуслугах, Bitwarden и др."</string>
+    <string name="settings_protect_against_tapjacking_518" formatted="false">"Защита от перехвата нажатий (Tapjacking)"</string>
+    <string name="settings_block_keyboard_touches_obscured_by_another_app_s_519" formatted="false">"Блокировать касания клавиатуры, если поверх неё наложено стороннее прозрачное окно"</string>
+    <string name="settings_block_screenshots_of_secrets_flag_secure_520" formatted="false">"Блокировать скриншоты секретов (FLAG_SECURE)"</string>
+    <string name="settings_prevent_screenshots_and_screen_recording_of_the_521" formatted="false">"Запрещать запись экрана и скриншоты в Сейфе, профиле автозаполнения и полях паролей"</string>
+    <string name="settings_ignore_sensitive_clipboard_items_522" formatted="false">"Игнорировать конфиденциальный буфер"</string>
+    <string name="settings_do_not_save_passwords_or_items_marked_extra_is_s_523" formatted="false">"Не сохранять пароли и элементы с системной меткой EXTRA_IS_SENSITIVE"</string>
+    <string name="settings_hide_clipboard_previews_524" formatted="false">"Скрывать превью в буфере обмена"</string>
+    <string name="settings_mask_text_and_thumbnails_until_insertion_525" formatted="false">"Маскировать текст и миниатюры до момента вставки"</string>
+    <string name="settings_lock_vault_after_unlocking_526" formatted="false">"Автоблокировка Сейфа после разблокировки"</string>
+    <string name="settings_30_sec_527" formatted="false">"30 сек"</string>
+    <string name="settings_1_min_528" formatted="false">"1 мин"</string>
+    <string name="settings_2_min_529" formatted="false">"2 мин"</string>
+    <string name="settings_local_backup_claritykey_530" formatted="false">"Локальное резервное копирование (.claritykey)"</string>
+    <string name="settings_export_settings_dictionary_shortcuts_and_templat_531" formatted="false">"Экспорт настроек, словаря, сокращений и шаблонов в локальный JSON-файл. Пароли, Сейф и профиль автозаполнения никогда не попадают в бэкап."</string>
+    <string name="settings_export_claritykey_532" formatted="false">"Экспорт .claritykey"</string>
+    <string name="settings_import_claritykey_533" formatted="false">"Импорт .claritykey"</string>
+    <string name="settings_clear_data_534" formatted="false">"Очистка данных"</string>
+    <string name="settings_clear_all_clipboard_history_including_pinned_ent_535" formatted="false">"Очистить всю историю буфера (включая закреплённые)"</string>
+    <string name="settings_clear_all_clipboard_history_536" formatted="false">"Очистить всю историю буфера?"</string>
+    <string name="settings_all_text_and_image_entries_will_be_deleted_inclu_537" formatted="false">"Будут удалены все текстовые и графические записи, включая закреплённые."</string>
+    <string name="settings_all_clipboard_history_cleared_538" formatted="false">"Вся история буфера очищена"</string>
+    <string name="settings_could_not_fully_clear_clipboard_history_539" formatted="false">"Не удалось полностью очистить буфер"</string>
+    <string name="settings_emergency_deletion_of_all_personal_data_panic_wi_540" formatted="false">"Экстренная очистка ВСЕХ личных данных (Panic Wipe)"</string>
+    <string name="settings_delete_all_personal_data_541" formatted="false">"Полная очистка всех данных?"</string>
+    <string name="settings_this_permanently_deletes_clipboard_history_saved_542" formatted="false">"Будут безвозвратно удалены: буфер обмена, фото, Сейф, профиль автозаполнения, заметка, личный словарь, память фраз и калибровка касаний."</string>
+    <string name="settings_delete_all_543" formatted="false">"Удалить всё"</string>
+    <string name="settings_personal_data_cleared_544" formatted="false">"Личные данные очищены"</string>
+    <string name="settings_some_files_could_not_be_deleted_545" formatted="false">"Часть файлов удалить не удалось"</string>
+    <string name="settings_version_1_s_build_2_s_546" formatted="true">"Версия %1$s (сборка %2$s)"</string>
+    <string name="settings_package_547" formatted="false">"Пакет"</string>
+    <string name="settings_compatibility_548" formatted="false">"Совместимость"</string>
+    <string name="settings_universal_android_keyboard_android_9_official_an_549" formatted="false">"Универсальная Android-клавиатура (Android 9+, только официальные Android SDK API, без Root и зависимостей от оболочек)."</string>
+    <string name="settings_dictionaries_and_open_source_components_550" formatted="false">"Словари и открытые компоненты"</string>
+    <string name="settings_ru_en_frequency_dictionaries_frequencywords_mit_551" formatted="false">"Частотные словари RU/EN (FrequencyWords, MIT/CC-BY-SA) и AndroidX (Apache 2.0)."</string>
+    <string name="settings_personal_typing_memory_552" formatted="false">"Эффект памяти ввода"</string>
+    <string name="settings_words_1_s_pairs_2_s_three_word_phrases_3_s_prote_553" formatted="true">"Слов в памяти: %1$s • Связок: %2$s • Фраз (3 слова): %3$s • Защищено от автозамены: %4$s"</string>
+    <string name="settings_phrase_memory_bigrams_and_trigrams_554" formatted="false">"Эффект памяти фраз (биграммы и триграммы)"</string>
+    <string name="settings_learn_common_phrases_and_word_order_and_protect_555" formatted="false">"Запоминает ваши частые обороты и порядок слов, защищает от повторных нежелательных автоисправлений"</string>
+    <string name="settings_clear_phrase_and_word_pair_memory_556" formatted="false">"Очистить память фраз и связок"</string>
+    <string name="settings_clear_personal_memory_557" formatted="false">"Очистить эффект памяти?"</string>
+    <string name="settings_learned_word_pairs_phrases_and_the_protected_wor_558" formatted="false">"Будут удалены запомненные связки слов, фразы и список защищённых слов."</string>
+    <string name="settings_phrase_memory_cleared_559" formatted="false">"Память фраз очищена"</string>
+    <string name="settings_local_autofill_aes_256_gcm_560" formatted="false">"Локальное автозаполнение (AES-256-GCM)"</string>
+    <string name="settings_smart_autofill_by_field_type_561" formatted="false">"Умное автозаполнение по типу поля"</string>
+    <string name="settings_offer_one_tap_insertion_of_your_email_phone_numb_562" formatted="false">"Предлагать 1-тап вставку Email, телефона, адреса и ФИО в подходящих полях (+ системный Autofill Android 11+)"</string>
+    <string name="settings_name_full_name_563" formatted="false">"Имя / ФИО"</string>
+    <string name="settings_email_e_g_name_gmail_com_564" formatted="false">"Email (напр. name@gmail.com)"</string>
+    <string name="settings_phone_e_g_7_999_123_45_67_565" formatted="false">"Телефон (напр. +7 999 123-45-67)"</string>
+    <string name="settings_delivery_address_566" formatted="false">"Адрес доставки"</string>
+    <string name="settings_username_telegram_567" formatted="false">"Никнейм / Telegram (@...)"</string>
+    <string name="settings_save_autofill_profile_568" formatted="false">"Сохранить профиль автозаполнения"</string>
+    <string name="settings_autofill_profile_encrypted_and_saved_569" formatted="false">"Профиль автозаполнения зашифрован и сохранён"</string>
+    <string name="settings_could_not_save_the_profile_check_the_device_keys_570" formatted="false">"Не удалось сохранить профиль. Проверьте хранилище ключей"</string>
+    <string name="settings_smart_gestures_and_privacy_571" formatted="false">"Умные жесты и приватность"</string>
+    <string name="settings_undo_word_deletion_572" formatted="false">"Отмена удаления слова (Undo-чип)"</string>
+    <string name="settings_show_restore_after_deleting_a_word_with_a_backsp_573" formatted="false">"Кнопка «↩ Вернуть» после удаления слова свайпом Backspace"</string>
+    <string name="settings_quick_swipe_up_on_keys_574" formatted="false">"Быстрый свайп вверх по клавишам (Quick Flick)"</string>
+    <string name="settings_swipe_up_to_enter_a_number_or_extra_symbol_immed_575" formatted="false">"Свайп вверх вводит цифру/доп. символ без задержки; свайп вверх от ?123 открывает нумпад"</string>
+    <string name="settings_paired_quotes_and_brackets_576" formatted="false">"Умные парные кавычки и скобки («», (), [])"</string>
+    <string name="settings_close_pairs_with_the_cursor_inside_or_wrap_selec_577" formatted="false">"Автозакрытие пары с курсором внутри и оборачивание выделенного текста"</string>
+    <string name="settings_password_field_privacy_shield_578" formatted="false">"Щит приватности в полях паролей"</string>
+    <string name="settings_automatically_disable_key_popups_and_sound_when_579" formatted="false">"Автоотключение всплывающих подсказок клавиш и звука при вводе пароля/PIN"</string>
+    <string name="settings_remove_tracking_parameters_from_links_580" formatted="false">"Очистка ссылок от трекеров (Clean URL)"</string>
+    <string name="settings_remove_utm_yclid_fbclid_and_si_when_pasting_copi_581" formatted="false">"Убирать utm_*, yclid, fbclid, si при вставке скопированных ссылок"</string>
+    <string name="settings_password_generator_in_password_fields_582" formatted="false">"Генератор паролей в полях пароля"</string>
+    <string name="settings_offer_create_password_16_characters_and_save_it_583" formatted="false">"Предлагать кнопку «🔑 Создать пароль» (16 симв.) с сохранением в Сейф"</string>
+    <string name="settings_smart_lists_with_enter_and_1_584" formatted="false">"Умные списки по Enter (• и 1.)"</string>
+    <string name="settings_continue_bulleted_and_numbered_lists_in_notes_an_585" formatted="false">"Автопродолжение маркированных и нумерованных списков в заметках и чатах"</string>
+    <string name="settings_palm_rejection_at_edges_1_s_dp_586" formatted="true">"Защита краёв от ладони (Edge Rejection): %1$s dp"</string>
+    <string name="settings_new_shortcut_587" formatted="false">"Новое сокращение"</string>
+    <string name="settings_expand_text_shortcuts_588" formatted="false">"Автораскрытие сокращений"</string>
+    <string name="settings_expand_a_trigger_on_space_or_from_the_toolbar_589" formatted="false">"Раскрывать триггер по пробелу или из верхней панели"</string>
+    <string name="settings_trigger_e_g_or_addr_590" formatted="false">"Триггер (например: @@ или адр)"</string>
+    <string name="settings_full_text_to_insert_591" formatted="false">"Полный текст для вставки…"</string>
+    <string name="settings_add_shortcut_592" formatted="false">"Добавить сокращение"</string>
+    <string name="settings_saved_1_s_2_s_593" formatted="true">"Сохранено: %1$s → %2$s"</string>
+    <string name="settings_saved_shortcuts_1_s_594" formatted="true">"Сохранённые сокращения (%1$s)"</string>
+    <string name="settings_no_shortcuts_yet_add_a_trigger_above_such_as_for_595" formatted="false">"Пока нет сокращений. Добавьте триггер выше, например «@@» для вашей почты."</string>
+    <string name="settings_contact_names_optional_596" formatted="false">"Имена из контактов (опционально)"</string>
+    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Добавляет имена из телефонной книги в словарь, чтобы автокоррекция их не меняла"</string>
+    <string name="settings_enter_a_word_to_add_598" formatted="false">"Введите слово для добавления…"</string>
+    <string name="settings_add_599" formatted="false">"Добавить"</string>
+    <string name="settings_export_txt_600" formatted="false">"Экспорт .txt"</string>
+    <string name="settings_import_txt_601" formatted="false">"Импорт .txt"</string>
+    <string name="settings_your_dictionary_is_empty_602" formatted="false">"Словарь пока пуст"</string>
+    <string name="settings_new_words_are_learned_as_you_type_except_in_pass_603" formatted="false">"Новые слова добавляются автоматически при наборе (кроме паролей и режима инкогнито)."</string>
+    <string name="settings_ui_language_title">"Язык интерфейса"</string>
+    <string name="settings_ui_language_description">"Язык настроек не меняет раскладку клавиатуры"</string>
+    <string name="notification_listener_name">"ClarityKey (Коды из SMS и Push)"</string>
+</resources>

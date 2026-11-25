@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ClarityKey</string>
+    <string name="ime_name">ClarityKey</string>
+    <string name="subtype_ru_ru">Русский (ЙЦУКЕН)</string>
+    <string name="subtype_en_us">English (QWERTY)</string>
+    <string name="settings_title">Настройки ClarityKey</string>
+    <string name="btn_enable_ime">1. Включить клавиатуру в системе</string>
+    <string name="btn_select_ime">2. Выбрать ClarityKey</string>
+    <string name="sec_appearance">Оформление (темы ClarityKey)</string>
+    <string name="sec_input">Ввод и русский язык</string>
+    <string name="sec_dict">Пользовательский словарь</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая тема ClarityKey</string>
+    <string name="theme_dark">Тёмная тема ClarityKey</string>
+    <string name="pref_autocap">Автозаглавная в начале предложения</string>
+    <string name="pref_double_space">Точка по двойному пробелу</string>
+    <string name="pref_suggestions">Подсказки слов</string>
+    <string name="pref_autocorrect">Автоисправление</string>
+    <string name="pref_sound">Фирменный звук клавиш ClarityKey</string>
+    <string name="pref_haptic">Виброотклик при нажатии</string>
+    <string name="pref_popup">Всплывающая подсказка клавиши</string>
+    <string name="pref_separate_hard_sign">Отдельная клавиша «Ъ» (12 в верхнем ряду)</string>
+    <string name="dict_hint">Добавить слово в словарь</string>
+    <string name="dict_add">Добавить</string>
+    <string name="dict_clear">Очистить словарь</string>
+    <string name="test_input_hint">Поле для проверки клавиатуры…</string>
+    <string name="vault_entry_unavailable">Запись временно недоступна</string>
+</resources>
