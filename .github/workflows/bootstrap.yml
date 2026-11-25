@@ -24,7 +24,7 @@ jobs:
           shopt -s dotglob
           cp -a .bootstrap/ClarityKey_v0.5.2-beta/. .
           rm -rf .bootstrap ClarityKey_v0.5.2-beta_source.zip
-          rm -f .github/workflows/bootstrap.yml
+          rm -f .github/workflows/bootstrap.yml .github/workflows/build-apk.yml
           chmod +x gradlew
       - name: Commit normal source tree
         run: |
