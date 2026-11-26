@@ -13,8 +13,8 @@ android {
         targetSdk = 35
         // Keep this monotonically above the previous 5.4.0-beta.3 build so the
         // renamed public beta can be installed as an update on test devices.
-        versionCode = 54004
-        versionName = "0.5.2-beta"
+        versionCode = 54005
+        versionName = "0.5.3-beta"
     }
 
     signingConfigs {
