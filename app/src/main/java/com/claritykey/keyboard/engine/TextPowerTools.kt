@@ -350,6 +350,9 @@ object TextPowerTools {
      * - "(c)" / "(с)" -> "©"
      * - '"' in RU -> '«' or '»'
      */
+    fun autoTypographyLookback(newChar: String): Int =
+        if (newChar == "\"") 256 else 4
+
     fun applyAutoTypography(beforeCursor: String, newChar: String, lang: String): Pair<Int, String>? {
         if (newChar == "-" && beforeCursor.endsWith("-")) {
             return 1 to "—"
