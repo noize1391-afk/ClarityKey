@@ -38,8 +38,11 @@ Android backup is disabled for the application.
 - **Biometrics:** used to unlock protected local features.
 - **Images and storage:** used to select screenshots or images for clipboard and
   OCR functions. Older Android versions use the compatible storage permission.
-- **Contacts:** declared for contact-aware input features. Android permission is
-  required before contacts can be accessed. ClarityKey has no Internet permission.
+- **Contacts:** used only after explicit opt-in to copy up to 400 words from contact
+  display names into the local personal dictionary. This is a one-time import, not
+  continuous contact synchronization. Disabling the option or revoking permission
+  does not delete words already imported; they remain visible and removable in the
+  personal dictionary. ClarityKey has no Internet permission.
 - **Notification access:** optional; used to detect one-time codes locally.
 - **Vibration:** used for keyboard haptic feedback.
 
