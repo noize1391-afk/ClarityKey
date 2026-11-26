@@ -722,26 +722,27 @@ class SettingsActivity : AppCompatActivity() {
 
     private fun importContactNamesToDictionary(): Int {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) return 0
-        var added = 0
+        val wordsBeforeImport = prefs.getUserWords()
+        val importedWords = linkedSetOf<String>()
         try {
             contentResolver.query(
                 android.provider.ContactsContract.Contacts.CONTENT_URI,
                 arrayOf(android.provider.ContactsContract.Contacts.DISPLAY_NAME_PRIMARY),
                 null, null, null
             )?.use { c ->
-                while (c.moveToNext() && added < 400) {
+                while (c.moveToNext() && importedWords.size < 400) {
                     val display = c.getString(0) ?: continue
-                    display.split(Regex("[^\\p{L}]+")).forEach { token ->
-                        if (token.length >= 2) {
-                            prefs.addUserWord(token)
-                            added++
-                        }
+                    for (token in display.split(Regex("[^\\p{L}]+"))) {
+                        if (token.length >= 2) importedWords.add(token)
+                        if (importedWords.size >= 400) break
                     }
                 }
             }
         } catch (_: Exception) {
+            return 0
         }
-        return added
+        importedWords.forEach(prefs::addUserWord)
+        return prefs.getUserWords().count { it !in wordsBeforeImport }
     }
 
     private fun setLauncherIconVisible(visible: Boolean) {
