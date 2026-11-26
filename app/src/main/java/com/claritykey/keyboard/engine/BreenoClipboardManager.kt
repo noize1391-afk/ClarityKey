@@ -238,8 +238,11 @@ class BreenoClipboardManager(
                 val verifiedSourcePkg = resolveVerifiedSourcePackage(item)
                 val verifiedSourceLabel = verifiedSourcePkg?.let { resolveAppLabel(it) }
                 if (isSilentInitialSync) {
+                    // The first sync commonly happens only after the keyboard becomes visible.
+                    // Persist the current system clip so copies made while the IME view was
+                    // hidden are not lost. Keep it dismissed only for quick suggestions to
+                    // avoid surfacing stale clipboard contents as a toolbar chip on startup.
                     dismissedSmartHashes.add(hash)
-                    continue
                 }
                 repository.saveOrPromoteAsync(rawText, verifiedSourcePkg, verifiedSourceLabel, automaticCapture = true) { entry, _ ->
                     if (prefs.clipboardCapturePaused) return@saveOrPromoteAsync
