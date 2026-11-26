@@ -118,6 +118,11 @@ class CoreTypingEngineTest {
         assertEquals(0 to "«", TextPowerTools.applyAutoTypography("сказал ", "\"", "RU"))
         assertEquals(0 to "»", TextPowerTools.applyAutoTypography("сказал «привет", "\"", "RU"))
 
+        val longQuotedText = "начало «" + "очень длинная фраза ".repeat(5)
+        val quoteContext = longQuotedText.takeLast(TextPowerTools.autoTypographyLookback("\""))
+        assertEquals(0 to "»", TextPowerTools.applyAutoTypography(quoteContext, "\"", "RU"))
+        assertEquals(4, TextPowerTools.autoTypographyLookback("."))
+
         val stack = TextPowerTools.UndoRedoStack(5)
         stack.record("one")
         stack.record("one two")
