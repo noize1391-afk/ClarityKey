@@ -581,8 +581,8 @@
     <string name="settings_saved_1_s_2_s_593" formatted="true">"Сохранено: %1$s → %2$s"</string>
     <string name="settings_saved_shortcuts_1_s_594" formatted="true">"Сохранённые сокращения (%1$s)"</string>
     <string name="settings_no_shortcuts_yet_add_a_trigger_above_such_as_for_595" formatted="false">"Пока нет сокращений. Добавьте триггер выше, например «@@» для вашей почты."</string>
-    <string name="settings_contact_names_optional_596" formatted="false">"Имена из контактов (опционально)"</string>
-    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Добавляет имена из телефонной книги в словарь, чтобы автокоррекция их не меняла"</string>
+    <string name="settings_contact_names_optional_596" formatted="false">"Импорт имён из контактов (опционально)"</string>
+    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Один раз копирует до 400 слов из имён в локальный словарь. Выключение не удаляет уже импортированные слова — при необходимости удалите их ниже."</string>
     <string name="settings_enter_a_word_to_add_598" formatted="false">"Введите слово для добавления…"</string>
     <string name="settings_add_599" formatted="false">"Добавить"</string>
     <string name="settings_export_txt_600" formatted="false">"Экспорт .txt"</string>
