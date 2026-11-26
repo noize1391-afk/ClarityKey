@@ -581,8 +581,8 @@
     <string name="settings_saved_1_s_2_s_593" formatted="true">"Saved: %1$s → %2$s"</string>
     <string name="settings_saved_shortcuts_1_s_594" formatted="true">"Saved shortcuts (%1$s)"</string>
     <string name="settings_no_shortcuts_yet_add_a_trigger_above_such_as_for_595" formatted="false">"No shortcuts yet. Add a trigger above, such as @@ for your email."</string>
-    <string name="settings_contact_names_optional_596" formatted="false">"Contact names (optional)"</string>
-    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Add contact names to the dictionary so autocorrection leaves them unchanged"</string>
+    <string name="settings_contact_names_optional_596" formatted="false">"Import contact names (optional)"</string>
+    <string name="settings_add_contact_names_to_the_dictionary_so_autocorre_597" formatted="false">"Copies up to 400 name words to the local dictionary once. Turning this off does not delete words already imported; remove them below if needed."</string>
     <string name="settings_enter_a_word_to_add_598" formatted="false">"Enter a word to add…"</string>
     <string name="settings_add_599" formatted="false">"Add"</string>
     <string name="settings_export_txt_600" formatted="false">"Export .txt"</string>
