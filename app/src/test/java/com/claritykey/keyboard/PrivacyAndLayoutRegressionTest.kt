@@ -1,6 +1,11 @@
 package com.claritykey.keyboard
 
+import android.content.ClipData
+import android.content.ClipboardManager
 import android.content.Context
+import com.claritykey.keyboard.engine.BreenoClipboardManager
+import android.os.Looper
+import org.robolectric.Shadows
 import com.claritykey.keyboard.clipboard.*
 import com.claritykey.keyboard.engine.PersonalMemoryEngine
 import com.claritykey.keyboard.engine.TextPowerTools
@@ -142,5 +147,75 @@ class PrivacyAndLayoutRegressionTest {
         stack.clear()
         assertNull(stack.undo("another editor"))
         assertNull(stack.redo("another editor"))
+    }
+
+    private fun awaitCondition(timeoutMs: Long = 3000L, predicate: () -> Boolean): Boolean {
+        val deadline = System.currentTimeMillis() + timeoutMs
+        while (System.currentTimeMillis() < deadline) {
+            Shadows.shadowOf(Looper.getMainLooper()).idle()
+            if (predicate()) return true
+            Thread.sleep(20L)
+        }
+        Shadows.shadowOf(Looper.getMainLooper()).idle()
+        return predicate()
+    }
+
+    @Test fun silentInitialClipboardSyncSavesMultilineCodeWithoutStartupChip() {
+        val sysClip = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val codeSnippet = "fun main() {\n\tval x = 1  // keep tabs & spaces\n\tprintln(x)\n}"
+        sysClip.setPrimaryClip(ClipData.newPlainText("code", codeSnippet))
+
+        val manager = BreenoClipboardManager(context, prefs)
+        try {
+            // init {} already ran syncFromSystemClipboard(notifyQuickChip = false)
+            var savedItems: List<ClipEntry> = emptyList()
+            val loaded = awaitCondition {
+                var done = false
+                manager.loadHistoryAsync { list ->
+                    savedItems = list
+                    done = true
+                }
+                awaitCondition(500L) { done }
+                savedItems.any { it.text == codeSnippet }
+            }
+            assertTrue("Multiline code with tabs/newlines must be persisted verbatim on initial silent sync", loaded)
+            assertNull("Stale initial clipboard must not surface as startup quick-chip", manager.getPendingQuickSuggestion())
+
+            // Subsequent copy after startup must surface as a fresh quick-chip
+            val freshText = "fresh-copy-after-startup"
+            sysClip.setPrimaryClip(ClipData.newPlainText("text", freshText))
+            manager.syncFromSystemClipboard(notifyQuickChip = true)
+            assertTrue(
+                "Fresh copy after startup should become pending quick suggestion",
+                awaitCondition { manager.getPendingQuickSuggestion() == freshText }
+            )
+        } finally {
+            manager.release()
+        }
+    }
+
+    @Test fun pausedClipboardDoesNotCaptureInitialOrNewClips() {
+        val sysClip = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        sysClip.setPrimaryClip(ClipData.newPlainText("secret", "private-token-123"))
+        prefs.clipboardCapturePaused = true
+
+        val manager = BreenoClipboardManager(context, prefs)
+        try {
+            manager.syncFromSystemClipboard(notifyQuickChip = false)
+            manager.syncFromSystemClipboard(notifyQuickChip = true)
+            Shadows.shadowOf(Looper.getMainLooper()).idle()
+
+            var done = false
+            var savedItems: List<ClipEntry> = listOf(ClipEntry(1, "sentinel", "h", false, 0, 0))
+            manager.loadHistoryAsync { list ->
+                savedItems = list
+                done = true
+            }
+            assertTrue(awaitCondition { done })
+            assertTrue("Paused clipboard must not persist items", savedItems.isEmpty())
+            assertNull("Paused clipboard must not expose quick suggestions", manager.getPendingQuickSuggestion())
+        } finally {
+            manager.release()
+        }
     }
 }
