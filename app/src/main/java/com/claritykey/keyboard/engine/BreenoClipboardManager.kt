@@ -155,20 +155,19 @@ class BreenoClipboardManager(
     fun syncFromSystemClipboard(notifyQuickChip: Boolean = false) {
         syncDataGeneration()
         if (!prefs.clipboardEnabled || prefs.clipboardCapturePaused) return
-        val isSilentInitialSync = !initialClipSynced && !notifyQuickChip
-        if (!initialClipSynced) initialClipSynced = true
         try {
             if (!sysClipboard.hasPrimaryClip()) return
             val clip = sysClipboard.primaryClip ?: return
+            val count = clip.itemCount
+            if (count <= 0) return
+            val isSilentInitialSync = !initialClipSynced && !notifyQuickChip
+            if (!initialClipSynced) initialClipSynced = true
             val desc = clip.description
 
             // Privacy guard: ignore system-marked sensitive content (API 33+ and API 28-32)
             if (prefs.clipboardIgnoreSensitive && isClipSensitive(desc)) {
                 return
             }
-
-            val count = clip.itemCount
-            if (count <= 0) return
 
             val descImageMime = findImageMimeInDescription(desc)
 
@@ -238,15 +237,21 @@ class BreenoClipboardManager(
                 val verifiedSourcePkg = resolveVerifiedSourcePackage(item)
                 val verifiedSourceLabel = verifiedSourcePkg?.let { resolveAppLabel(it) }
                 if (isSilentInitialSync) {
+                    // The first sync commonly happens only after the keyboard becomes visible.
+                    // Persist the current system clip so copies made while the IME view was
+                    // hidden are not lost, but suppress both smart and plain quick-chips on startup.
                     dismissedSmartHashes.add(hash)
-                    continue
+                    lastSuggestedHash = hash
                 }
                 repository.saveOrPromoteAsync(rawText, verifiedSourcePkg, verifiedSourceLabel, automaticCapture = true) { entry, _ ->
                     if (prefs.clipboardCapturePaused) return@saveOrPromoteAsync
-                    latestSuggestionText = entry.text
-                    latestSuggestionTimeMs = entry.updatedAt
-                    latestTextEntry = entry
+                    if (!isSilentInitialSync) {
+                        latestSuggestionText = entry.text
+                        latestSuggestionTimeMs = entry.updatedAt
+                        latestTextEntry = entry
+                    }
                     onHistoryChangedCallback?.invoke()
+                    if (isSilentInitialSync) return@saveOrPromoteAsync
                     if (prefs.smartPasteEnabled) {
                         smartPasteAnalyzer.analyzeAsync(entry) { res ->
                             if (prefs.clipboardCapturePaused || (prefs.smartPasteHideSensitive && res.hasSensitiveData)) return@analyzeAsync

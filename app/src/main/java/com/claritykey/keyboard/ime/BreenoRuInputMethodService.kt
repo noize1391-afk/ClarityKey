@@ -1532,7 +1532,10 @@ class BreenoRuInputMethodService : InputMethodService(),
                 }
             } else {
                 val typoHit = if (prefs.autoTypographyEnabled && !isSensitiveField && !isTerminalAppProfile) {
-                    val beforeTypo = ic.getTextBeforeCursor(4, 0)?.toString() ?: ""
+                    val beforeTypo = ic.getTextBeforeCursor(
+                        TextPowerTools.autoTypographyLookback(text),
+                        0
+                    )?.toString() ?: ""
                     TextPowerTools.applyAutoTypography(beforeTypo, text, prefs.activeLanguage)
                 } else null
                 if (typoHit != null) {

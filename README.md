@@ -1,7 +1,7 @@
 # ClarityKey
 
 [![Build ClarityKey APK](https://github.com/noize1391-afk/ClarityKey/actions/workflows/build-apk.yml/badge.svg)](https://github.com/noize1391-afk/ClarityKey/actions/workflows/build-apk.yml)
-[![Release](https://img.shields.io/badge/release-0.5.2--beta-blue)](https://github.com/noize1391-afk/ClarityKey/releases/tag/v0.5.2-beta)
+[![Release](https://img.shields.io/badge/release-0.5.3--beta-blue)](https://github.com/noize1391-afk/ClarityKey/releases/tag/v0.5.3-beta)
 
 ClarityKey is a privacy-focused Android keyboard with Russian and English input,
 local suggestions, autocorrection, swipe typing, encrypted clipboard tools,
@@ -14,7 +14,7 @@ on-device OCR and extensive customization.
 ## Download
 
 - [Latest release](https://github.com/noize1391-afk/ClarityKey/releases/latest)
-- [ClarityKey 0.5.2-beta APK](https://github.com/noize1391-afk/ClarityKey/releases/download/v0.5.2-beta/ClarityKey-0.5.2-beta.apk)
+- [ClarityKey 0.5.3-beta APK](https://github.com/noize1391-afk/ClarityKey/releases/download/v0.5.3-beta/ClarityKey-0.5.3-beta.apk)
 - SHA-256: `206bdbe195a25e58b6fbefe0f03004ae350b6b8c1a7c86585e0c9d3b3297ceb3`
 
 ## Highlights
@@ -33,7 +33,7 @@ on-device OCR and extensive customization.
 | Item | Value |
 | --- | --- |
 | Package | `com.claritykey.keyboard` |
-| Current version | `0.5.2-beta` (`54004`) |
+| Current version | `0.5.3-beta` (`54005`) |
 | Minimum Android | Android 9 / API 28 |
 | Target Android | API 35 |
 | Settings interface | Russian and English |
@@ -72,7 +72,7 @@ their own network and privacy behaviour. See [PRIVACY.md](PRIVACY.md) for detail
 ## Building
 
 Every push to `main` runs tests and Android Lint, then builds an APK. A signed tag
-such as `v0.5.2-beta` creates or updates the matching GitHub Release when signing
+such as `v0.5.3-beta` creates or updates the matching GitHub Release when signing
 secrets are configured.
 
 - [Build instructions](README_BUILD.md)
